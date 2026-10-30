@@ -130,4 +130,4 @@ The battery specifications in `battery_models.csv` come from the manufacturers' 
 
 ## Contact
 
-Jintao Zhao, Graduate School of Science and Engineering, Hosei University. Questions and corrections are welcome as GitHub issues.
+Questions and corrections are welcome as GitHub issues.
