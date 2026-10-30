@@ -1,0 +1,65 @@
+channel,model,start_local,end_local,days
+"Laptop(Back Room,Downstairs)",PC2,2012-07-12 01:00,2012-07-16 01:00,4.0
+"Laptop(Back Room,Downstairs)",PC2,2012-07-17 01:00,2012-10-28 01:00,103.0
+"Laptop(Back Room,Downstairs)",PC2,2012-10-29 00:00,2013-01-08 00:00,71.0
+"Laptop(Back Room,Downstairs)",PC2,2013-01-09 00:00,2013-02-04 00:00,26.0
+"Laptop(Back Room,Downstairs)",PC2,2013-02-05 00:00,2013-03-20 00:00,43.0
+"Laptop(Back Room,Downstairs)",PC2,2013-03-21 00:00,2013-06-25 01:00,96.04
+"Laptop(Back Room,Downstairs)",PC2,2013-06-28 01:00,2013-10-27 01:00,121.0
+"Laptop(Back Room,Downstairs)",PC2,2013-10-28 00:00,2014-01-11 00:00,75.0
+"Laptop(Back Room,Downstairs)",PC2,2014-01-13 00:00,2014-01-20 00:00,7.0
+"Laptop(Back Room,Downstairs)",PC2,2014-01-30 00:00,2014-02-09 00:00,10.0
+"Laptop(Back Room,Downstairs)",PC2,2014-02-25 00:00,2014-02-27 00:00,2.0
+"Laptop(Back Room,Downstairs)",PC2,2014-02-28 00:00,2014-03-02 00:00,2.0
+"Laptop(Back Room,Downstairs)",PC2,2014-04-05 01:00,2014-04-13 01:00,8.0
+"Laptop(Back Room,Downstairs)",PC2,2014-04-14 01:00,2014-05-05 01:00,21.0
+"Laptop(Back Room,Downstairs)",PC2,2014-05-13 01:00,2014-05-20 01:00,7.0
+"Computing Equipment(StudyOfficePlayroom,Downstairs)",PC2,2012-07-12 01:00,2012-07-16 01:00,4.0
+"Computing Equipment(StudyOfficePlayroom,Downstairs)",PC2,2012-07-17 01:00,2012-10-28 01:00,103.0
+"Computing Equipment(StudyOfficePlayroom,Downstairs)",PC2,2012-10-29 00:00,2013-10-27 01:00,363.04
+"Computing Equipment(StudyOfficePlayroom,Downstairs)",PC2,2013-10-28 00:00,2014-02-27 00:00,122.0
+"Computing Equipment(StudyOfficePlayroom,Downstairs)",PC2,2014-02-28 00:00,2014-05-20 01:00,81.04
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2012-07-12 01:00,2012-07-16 01:00,4.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2012-07-17 01:00,2012-10-28 01:00,103.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2012-10-29 00:00,2013-01-08 00:00,71.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2013-01-09 00:00,2013-10-27 01:00,291.04
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2013-10-28 00:00,2014-02-27 00:00,122.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2014-02-28 00:00,2014-03-17 00:00,17.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2014-03-18 00:00,2014-05-20 01:00,63.04
+"Office Digital Media(StudyOfficePlayroom,Downstairs)",PC2,2012-07-12 01:00,2012-07-16 01:00,4.0
+"Office Digital Media(StudyOfficePlayroom,Downstairs)",PC2,2012-07-17 01:00,2012-10-28 01:00,103.0
+"Office Digital Media(StudyOfficePlayroom,Downstairs)",PC2,2012-10-29 00:00,2013-10-27 01:00,363.04
+"Office Digital Media(StudyOfficePlayroom,Downstairs)",PC2,2013-10-28 00:00,2014-02-27 00:00,122.0
+"Office Digital Media(StudyOfficePlayroom,Downstairs)",PC2,2014-02-28 00:00,2014-05-20 01:00,81.04
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2012-07-12 01:00,2012-07-16 01:00,4.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2012-07-17 01:00,2012-10-09 01:00,84.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2012-10-11 01:00,2012-10-28 01:00,17.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2012-10-29 00:00,2013-01-08 00:00,71.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2013-01-09 00:00,2013-08-11 01:00,214.04
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2013-10-23 01:00,2013-10-27 01:00,4.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2013-10-28 00:00,2014-02-27 00:00,122.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2014-02-28 00:00,2014-03-17 00:00,17.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2014-03-18 00:00,2014-05-20 01:00,63.04
+"TV(Front Room,Downstairs) / DVD / HDD recorder / BlueRay(Front Room,Downstairs) / Cable Decoder(Front Room,Downstairs) / Games Console(Front Room,Downstairs)",TV3A,2012-07-12 01:00,2012-07-16 01:00,4.0
+"TV(Front Room,Downstairs) / DVD / HDD recorder / BlueRay(Front Room,Downstairs) / Cable Decoder(Front Room,Downstairs) / Games Console(Front Room,Downstairs)",TV3A,2012-07-17 01:00,2012-10-28 01:00,103.0
+"TV(Front Room,Downstairs) / DVD / HDD recorder / BlueRay(Front Room,Downstairs) / Cable Decoder(Front Room,Downstairs) / Games Console(Front Room,Downstairs)",TV3A,2012-10-29 00:00,2013-01-08 00:00,71.0
+"TV(Front Room,Downstairs) / DVD / HDD recorder / BlueRay(Front Room,Downstairs) / Cable Decoder(Front Room,Downstairs) / Games Console(Front Room,Downstairs)",TV3A,2013-01-09 00:00,2013-10-27 01:00,291.04
+"TV(Front Room,Downstairs) / DVD / HDD recorder / BlueRay(Front Room,Downstairs) / Cable Decoder(Front Room,Downstairs) / Games Console(Front Room,Downstairs)",TV3A,2013-10-28 00:00,2014-02-27 00:00,122.0
+"TV(Front Room,Downstairs) / DVD / HDD recorder / BlueRay(Front Room,Downstairs) / Cable Decoder(Front Room,Downstairs) / Games Console(Front Room,Downstairs)",TV3A,2014-02-28 00:00,2014-05-20 01:00,81.04
+"Hair Styling(Bedroom 1,Upstairs)",HD,2012-07-12 01:00,2012-07-16 01:00,4.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2012-07-17 01:00,2012-08-19 01:00,33.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2012-08-22 01:00,2012-09-05 01:00,14.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2012-09-07 01:00,2012-10-01 01:00,24.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2012-10-03 01:00,2012-10-28 01:00,25.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2012-10-29 00:00,2013-01-08 00:00,71.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2013-01-09 00:00,2013-10-27 01:00,291.04
+"Hair Styling(Bedroom 1,Upstairs)",HD,2013-10-28 00:00,2014-02-27 00:00,122.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2014-02-28 00:00,2014-03-17 00:00,17.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2014-03-18 00:00,2014-05-20 01:00,63.04
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2012-07-12 01:00,2012-07-16 01:00,4.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2012-07-17 01:00,2012-10-28 01:00,103.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2012-10-29 00:00,2013-01-08 00:00,71.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2013-01-09 00:00,2013-10-22 01:00,286.04
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2013-10-25 01:00,2013-10-27 01:00,2.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2013-11-04 00:00,2013-12-01 00:00,27.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2013-12-03 00:00,2013-12-22 00:00,19.0

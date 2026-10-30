@@ -1,0 +1,393 @@
+channel,model,start_local,end_local,days
+"Battery Charger(Garage/Shed,Downstairs)",TABLET,2011-11-03 00:00,2011-12-26 00:00,53.0
+"Battery Charger(Garage/Shed,Downstairs)",TABLET,2011-12-27 00:00,2012-01-28 00:00,32.0
+"Battery Charger(Garage/Shed,Downstairs)",TABLET,2012-01-31 00:00,2012-02-01 00:00,1.0
+"Battery Charger(Garage/Shed,Downstairs)",TABLET,2012-02-02 00:00,2012-03-05 00:00,32.0
+"Battery Charger(Garage/Shed,Downstairs)",TABLET,2012-03-06 00:00,2012-03-14 00:00,8.0
+"Battery Charger(Garage/Shed,Downstairs)",TABLET,2012-03-15 00:00,2012-03-20 00:00,5.0
+"Battery Charger(Garage/Shed,Downstairs)",TABLET,2012-03-24 00:00,2012-03-25 00:00,1.0
+"Battery Charger(Garage/Shed,Downstairs)",TABLET,2012-04-01 01:00,2012-04-16 01:00,15.0
+"Battery Charger(Garage/Shed,Downstairs)",TABLET,2012-04-17 01:00,2012-04-19 01:00,2.0
+"Battery Charger(Garage/Shed,Downstairs)",TABLET,2012-04-24 01:00,2012-06-13 01:00,50.0
+"Battery Charger(Garage/Shed,Downstairs)",TABLET,2012-06-15 01:00,2012-06-21 01:00,6.0
+"Battery Charger(Garage/Shed,Downstairs)",TABLET,2012-06-23 01:00,2012-06-24 01:00,1.0
+"Battery Charger(Garage/Shed,Downstairs)",TABLET,2012-06-26 01:00,2012-06-27 01:00,1.0
+"Battery Charger(Garage/Shed,Downstairs)",TABLET,2012-07-01 01:00,2012-07-16 01:00,15.0
+"Battery Charger(Garage/Shed,Downstairs)",TABLET,2012-07-17 01:00,2012-08-21 01:00,35.0
+"Battery Charger(Garage/Shed,Downstairs)",TABLET,2012-08-24 01:00,2012-09-15 01:00,22.0
+"Battery Charger(Garage/Shed,Downstairs)",TABLET,2012-11-08 00:00,2013-05-07 01:00,180.04
+"Battery Charger(Garage/Shed,Downstairs)",TABLET,2013-11-10 00:00,2014-02-27 00:00,109.0
+"Battery Charger(Garage/Shed,Downstairs)",TABLET,2014-02-28 00:00,2014-03-31 01:00,31.04
+"Lamp 1(Bedroom 2,Upstairs)",TL,2011-11-03 00:00,2011-12-26 00:00,53.0
+"Lamp 1(Bedroom 2,Upstairs)",TL,2011-12-27 00:00,2012-01-14 00:00,18.0
+"Lamp 1(Bedroom 2,Upstairs)",TL,2012-01-15 00:00,2012-01-28 00:00,13.0
+"Lamp 1(Bedroom 2,Upstairs)",TL,2012-01-31 00:00,2012-02-01 00:00,1.0
+"Lamp 1(Bedroom 2,Upstairs)",TL,2012-02-02 00:00,2012-03-05 00:00,32.0
+"Lamp 1(Bedroom 2,Upstairs)",TL,2012-03-06 00:00,2012-03-14 00:00,8.0
+"Lamp 1(Bedroom 2,Upstairs)",TL,2012-03-15 00:00,2012-03-20 00:00,5.0
+"Lamp 1(Bedroom 2,Upstairs)",TL,2012-03-24 00:00,2012-03-25 00:00,1.0
+"Lamp 1(Bedroom 2,Upstairs)",TL,2012-11-08 00:00,2013-01-08 00:00,61.0
+"Lamp 1(Bedroom 2,Upstairs)",TL,2013-01-09 00:00,2013-04-23 01:00,104.04
+"Lamp 1(Bedroom 2,Upstairs)",TL,2013-05-19 01:00,2013-06-01 01:00,13.0
+"Lamp 1(Bedroom 2,Upstairs)",TL,2013-06-02 01:00,2013-06-06 01:00,4.0
+"Lamp 1(Bedroom 2,Upstairs)",TL,2013-06-07 01:00,2013-06-15 01:00,8.0
+"Lamp 1(Bedroom 2,Upstairs)",TL,2013-06-17 01:00,2013-06-22 01:00,5.0
+"Lamp 1(Bedroom 2,Upstairs)",TL,2013-06-26 01:00,2013-06-27 01:00,1.0
+"Lamp 1(Bedroom 2,Upstairs)",TL,2013-07-02 01:00,2013-07-06 01:00,4.0
+"Lamp 1(Bedroom 2,Upstairs)",TL,2013-07-07 01:00,2013-08-06 01:00,30.0
+"Lamp 1(Bedroom 2,Upstairs)",TL,2013-08-09 01:00,2013-08-19 01:00,10.0
+"Lamp 1(Bedroom 2,Upstairs)",TL,2013-08-21 01:00,2013-08-23 01:00,2.0
+"Lamp 1(Bedroom 2,Upstairs)",TL,2013-08-25 01:00,2013-09-10 01:00,16.0
+"Lamp 1(Bedroom 2,Upstairs)",TL,2013-09-11 01:00,2013-09-17 01:00,6.0
+"Lamp 1(Bedroom 2,Upstairs)",TL,2013-09-21 01:00,2013-10-27 01:00,36.0
+"Lamp 1(Bedroom 2,Upstairs)",TL,2013-10-28 00:00,2013-12-02 00:00,35.0
+"Lamp 1(Bedroom 2,Upstairs)",TL,2013-12-03 00:00,2014-02-27 00:00,86.0
+"Lamp 1(Bedroom 2,Upstairs)",TL,2014-02-28 00:00,2014-03-17 00:00,17.0
+"Lamp 1(Bedroom 2,Upstairs)",TL,2014-03-18 00:00,2014-04-05 01:00,18.04
+"Lamp 1(Bedroom 2,Upstairs)",TL,2014-04-06 01:00,2014-04-14 01:00,8.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2011-11-03 00:00,2011-12-26 00:00,53.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2011-12-27 00:00,2012-01-14 00:00,18.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2012-01-15 00:00,2012-01-28 00:00,13.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2012-01-31 00:00,2012-02-01 00:00,1.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2012-02-02 00:00,2012-03-05 00:00,32.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2012-03-06 00:00,2012-03-14 00:00,8.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2012-03-15 00:00,2012-03-20 00:00,5.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2012-03-24 00:00,2012-03-25 00:00,1.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2012-04-01 01:00,2012-04-16 01:00,15.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2012-04-17 01:00,2012-04-19 01:00,2.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2012-04-24 01:00,2012-05-03 01:00,9.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2012-05-04 01:00,2012-06-13 01:00,40.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2012-06-15 01:00,2012-06-21 01:00,6.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2012-06-23 01:00,2012-06-24 01:00,1.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2012-06-26 01:00,2012-06-27 01:00,1.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2012-07-01 01:00,2012-07-12 01:00,11.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2012-07-14 01:00,2012-07-16 01:00,2.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2012-07-18 01:00,2012-08-23 01:00,36.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2012-08-24 01:00,2012-09-12 01:00,19.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2012-09-13 01:00,2012-09-15 01:00,2.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2012-12-28 00:00,2012-12-29 00:00,1.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2012-12-31 00:00,2013-01-03 00:00,3.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2013-01-05 00:00,2013-01-08 00:00,3.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2013-02-13 00:00,2013-02-16 00:00,3.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2013-03-24 00:00,2013-04-01 01:00,8.04
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2013-04-02 01:00,2013-04-14 01:00,12.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2013-04-15 01:00,2013-04-24 01:00,9.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2013-04-30 01:00,2013-06-01 01:00,32.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2013-06-02 01:00,2013-06-06 01:00,4.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2013-06-07 01:00,2013-06-15 01:00,8.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2013-06-17 01:00,2013-06-22 01:00,5.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2013-06-26 01:00,2013-06-27 01:00,1.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2013-07-02 01:00,2013-07-06 01:00,4.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2013-07-07 01:00,2013-07-09 01:00,2.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2013-07-11 01:00,2013-07-20 01:00,9.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2013-08-05 01:00,2013-08-07 01:00,2.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2013-08-09 01:00,2013-08-17 01:00,8.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2013-08-18 01:00,2013-08-19 01:00,1.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2013-08-21 01:00,2013-08-24 01:00,3.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2013-08-25 01:00,2013-09-10 01:00,16.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2013-09-11 01:00,2013-09-17 01:00,6.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2013-09-21 01:00,2013-10-27 01:00,36.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2013-10-28 00:00,2013-12-02 00:00,35.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2013-12-03 00:00,2013-12-17 00:00,14.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2013-12-19 00:00,2013-12-28 00:00,9.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2013-12-29 00:00,2014-01-14 00:00,16.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2014-03-16 00:00,2014-03-17 00:00,1.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2014-03-18 00:00,2014-04-05 01:00,18.04
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2014-04-07 01:00,2014-04-08 01:00,1.0
+"Computing Equipment(Bedroom 4,Upstairs)",PC2,2014-04-09 01:00,2014-04-14 01:00,5.0
+"TV(Back Room,Downstairs) / Cable Decoder(Back Room,Downstairs) / Stereo(Back Room,Downstairs)",TV3A,2011-11-03 00:00,2011-12-26 00:00,53.0
+"TV(Back Room,Downstairs) / Cable Decoder(Back Room,Downstairs) / Stereo(Back Room,Downstairs)",TV3A,2011-12-27 00:00,2012-01-28 00:00,32.0
+"TV(Back Room,Downstairs) / Cable Decoder(Back Room,Downstairs) / Stereo(Back Room,Downstairs)",TV3A,2012-01-31 00:00,2012-02-01 00:00,1.0
+"TV(Back Room,Downstairs) / Cable Decoder(Back Room,Downstairs) / Stereo(Back Room,Downstairs)",TV3A,2012-02-02 00:00,2012-03-14 00:00,41.0
+"TV(Back Room,Downstairs) / Cable Decoder(Back Room,Downstairs) / Stereo(Back Room,Downstairs)",TV3A,2012-03-15 00:00,2012-03-20 00:00,5.0
+"TV(Back Room,Downstairs) / Cable Decoder(Back Room,Downstairs) / Stereo(Back Room,Downstairs)",TV3A,2012-03-24 00:00,2012-03-25 00:00,1.0
+"TV(Back Room,Downstairs) / Cable Decoder(Back Room,Downstairs) / Stereo(Back Room,Downstairs)",TV3A,2012-04-01 01:00,2012-04-16 01:00,15.0
+"TV(Back Room,Downstairs) / Cable Decoder(Back Room,Downstairs) / Stereo(Back Room,Downstairs)",TV3A,2012-04-17 01:00,2012-04-19 01:00,2.0
+"TV(Back Room,Downstairs) / Cable Decoder(Back Room,Downstairs) / Stereo(Back Room,Downstairs)",TV3A,2012-04-24 01:00,2012-06-13 01:00,50.0
+"TV(Back Room,Downstairs) / Cable Decoder(Back Room,Downstairs) / Stereo(Back Room,Downstairs)",TV3A,2012-06-15 01:00,2012-06-21 01:00,6.0
+"TV(Back Room,Downstairs) / Cable Decoder(Back Room,Downstairs) / Stereo(Back Room,Downstairs)",TV3A,2012-06-23 01:00,2012-06-24 01:00,1.0
+"TV(Back Room,Downstairs) / Cable Decoder(Back Room,Downstairs) / Stereo(Back Room,Downstairs)",TV3A,2012-06-26 01:00,2012-06-27 01:00,1.0
+"TV(Back Room,Downstairs) / Cable Decoder(Back Room,Downstairs) / Stereo(Back Room,Downstairs)",TV3A,2012-07-01 01:00,2012-07-16 01:00,15.0
+"TV(Back Room,Downstairs) / Cable Decoder(Back Room,Downstairs) / Stereo(Back Room,Downstairs)",TV3A,2012-07-17 01:00,2012-09-15 01:00,60.0
+"TV(Back Room,Downstairs) / Cable Decoder(Back Room,Downstairs) / Stereo(Back Room,Downstairs)",TV3A,2012-11-08 00:00,2013-06-01 01:00,205.04
+"TV(Back Room,Downstairs) / Cable Decoder(Back Room,Downstairs) / Stereo(Back Room,Downstairs)",TV3A,2013-06-02 01:00,2013-06-06 01:00,4.0
+"TV(Back Room,Downstairs) / Cable Decoder(Back Room,Downstairs) / Stereo(Back Room,Downstairs)",TV3A,2013-06-07 01:00,2013-06-15 01:00,8.0
+"TV(Back Room,Downstairs) / Cable Decoder(Back Room,Downstairs) / Stereo(Back Room,Downstairs)",TV3A,2013-06-17 01:00,2013-06-22 01:00,5.0
+"TV(Back Room,Downstairs) / Cable Decoder(Back Room,Downstairs) / Stereo(Back Room,Downstairs)",TV3A,2013-06-26 01:00,2013-06-27 01:00,1.0
+"TV(Back Room,Downstairs) / Cable Decoder(Back Room,Downstairs) / Stereo(Back Room,Downstairs)",TV3A,2013-07-02 01:00,2013-07-06 01:00,4.0
+"TV(Back Room,Downstairs) / Cable Decoder(Back Room,Downstairs) / Stereo(Back Room,Downstairs)",TV3A,2013-07-07 01:00,2013-08-06 01:00,30.0
+"TV(Back Room,Downstairs) / Cable Decoder(Back Room,Downstairs) / Stereo(Back Room,Downstairs)",TV3A,2013-08-09 01:00,2013-08-19 01:00,10.0
+"TV(Back Room,Downstairs) / Cable Decoder(Back Room,Downstairs) / Stereo(Back Room,Downstairs)",TV3A,2013-08-20 01:00,2013-08-23 01:00,3.0
+"TV(Back Room,Downstairs) / Cable Decoder(Back Room,Downstairs) / Stereo(Back Room,Downstairs)",TV3A,2013-08-25 01:00,2013-09-10 01:00,16.0
+"TV(Back Room,Downstairs) / Cable Decoder(Back Room,Downstairs) / Stereo(Back Room,Downstairs)",TV3A,2013-09-11 01:00,2013-09-17 01:00,6.0
+"TV(Back Room,Downstairs) / Cable Decoder(Back Room,Downstairs) / Stereo(Back Room,Downstairs)",TV3A,2013-09-21 01:00,2013-10-27 01:00,36.0
+"TV(Back Room,Downstairs) / Cable Decoder(Back Room,Downstairs) / Stereo(Back Room,Downstairs)",TV3A,2013-10-28 00:00,2013-12-17 00:00,50.0
+"TV(Back Room,Downstairs) / Cable Decoder(Back Room,Downstairs) / Stereo(Back Room,Downstairs)",TV3A,2013-12-24 00:00,2014-02-27 00:00,65.0
+"TV(Back Room,Downstairs) / Cable Decoder(Back Room,Downstairs) / Stereo(Back Room,Downstairs)",TV3A,2014-02-28 00:00,2014-04-05 01:00,36.04
+"TV(Back Room,Downstairs) / Cable Decoder(Back Room,Downstairs) / Stereo(Back Room,Downstairs)",TV3A,2014-04-06 01:00,2014-04-14 01:00,8.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2011-11-03 00:00,2011-11-09 00:00,6.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2011-11-10 00:00,2011-12-04 00:00,24.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2011-12-06 00:00,2011-12-26 00:00,20.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2011-12-27 00:00,2012-01-28 00:00,32.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2012-01-31 00:00,2012-02-01 00:00,1.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2012-02-02 00:00,2012-02-09 00:00,7.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2012-02-10 00:00,2012-03-05 00:00,24.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2012-03-06 00:00,2012-03-14 00:00,8.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2012-03-15 00:00,2012-03-20 00:00,5.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2012-03-24 00:00,2012-03-25 00:00,1.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2012-04-01 01:00,2012-04-04 01:00,3.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2012-04-13 01:00,2012-04-16 01:00,3.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2012-04-17 01:00,2012-04-19 01:00,2.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2012-04-24 01:00,2012-05-03 01:00,9.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2012-05-04 01:00,2012-06-13 01:00,40.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2012-06-15 01:00,2012-06-21 01:00,6.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2012-06-23 01:00,2012-06-24 01:00,1.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2012-06-26 01:00,2012-06-27 01:00,1.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2012-07-01 01:00,2012-07-12 01:00,11.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2012-07-15 01:00,2012-07-16 01:00,1.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2012-07-18 01:00,2012-07-28 01:00,10.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2012-08-05 01:00,2012-09-15 01:00,41.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2012-11-08 00:00,2012-11-28 00:00,20.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2012-11-29 00:00,2012-12-11 00:00,12.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2012-12-12 00:00,2012-12-29 00:00,17.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2013-01-01 00:00,2013-01-03 00:00,2.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2013-01-04 00:00,2013-02-15 00:00,42.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2013-02-16 00:00,2013-04-04 01:00,47.04
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2013-04-06 01:00,2013-06-01 01:00,56.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2013-06-02 01:00,2013-06-06 01:00,4.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2013-06-07 01:00,2013-06-15 01:00,8.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2013-06-17 01:00,2013-06-22 01:00,5.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2013-06-26 01:00,2013-06-27 01:00,1.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2013-07-02 01:00,2013-07-06 01:00,4.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2013-07-07 01:00,2013-07-20 01:00,13.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2013-08-05 01:00,2013-08-06 01:00,1.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2013-08-09 01:00,2013-08-19 01:00,10.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2013-08-21 01:00,2013-08-23 01:00,2.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2013-08-25 01:00,2013-09-10 01:00,16.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2013-09-12 01:00,2013-09-17 01:00,5.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2013-09-21 01:00,2013-10-01 01:00,10.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2013-10-02 01:00,2013-10-27 01:00,25.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2013-10-28 00:00,2013-12-02 00:00,35.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2013-12-03 00:00,2014-02-27 00:00,86.0
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2014-02-28 00:00,2014-04-05 01:00,36.04
+"Computing Equipment / Laptop(Front Room,Downstairs)",PC2,2014-04-06 01:00,2014-04-14 01:00,8.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2011-11-03 00:00,2011-11-06 00:00,3.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2011-11-07 00:00,2011-12-26 00:00,49.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2011-12-27 00:00,2012-01-14 00:00,18.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2012-01-15 00:00,2012-01-28 00:00,13.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2012-01-31 00:00,2012-02-01 00:00,1.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2012-02-02 00:00,2012-02-07 00:00,5.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2012-02-08 00:00,2012-03-05 00:00,26.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2012-03-06 00:00,2012-03-14 00:00,8.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2012-03-15 00:00,2012-03-20 00:00,5.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2012-03-22 00:00,2012-03-23 00:00,1.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2012-03-24 00:00,2012-03-25 00:00,1.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2012-04-01 01:00,2012-04-16 01:00,15.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2012-04-17 01:00,2012-04-19 01:00,2.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2012-04-24 01:00,2012-05-03 01:00,9.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2012-05-04 01:00,2012-06-13 01:00,40.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2012-06-15 01:00,2012-06-22 01:00,7.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2012-06-23 01:00,2012-06-24 01:00,1.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2012-06-26 01:00,2012-06-27 01:00,1.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2012-07-01 01:00,2012-07-12 01:00,11.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2012-07-14 01:00,2012-07-16 01:00,2.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2012-07-18 01:00,2012-09-15 01:00,59.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2012-11-08 00:00,2012-11-21 00:00,13.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2012-11-25 00:00,2013-01-08 00:00,44.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2013-01-09 00:00,2013-06-01 01:00,143.04
+"Hair Styling(Bedroom 1,Upstairs)",HD,2013-06-02 01:00,2013-06-06 01:00,4.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2013-06-07 01:00,2013-06-15 01:00,8.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2013-06-17 01:00,2013-06-22 01:00,5.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2013-06-26 01:00,2013-06-27 01:00,1.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2013-07-02 01:00,2013-07-06 01:00,4.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2013-07-07 01:00,2013-08-06 01:00,30.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2013-08-09 01:00,2013-08-19 01:00,10.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2013-08-21 01:00,2013-08-23 01:00,2.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2013-08-25 01:00,2013-09-10 01:00,16.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2013-09-11 01:00,2013-09-17 01:00,6.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2013-09-21 01:00,2013-10-27 01:00,36.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2013-10-28 00:00,2013-12-02 00:00,35.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2013-12-03 00:00,2014-02-27 00:00,86.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2014-02-28 00:00,2014-03-17 00:00,17.0
+"Hair Styling(Bedroom 1,Upstairs)",HD,2014-03-18 00:00,2014-04-05 01:00,18.04
+"Hair Styling(Bedroom 1,Upstairs)",HD,2014-04-06 01:00,2014-04-14 01:00,8.0
+"TV(Front Room,Downstairs) / DVD / HDD recorder / BlueRay(Front Room,Downstairs) / Freeview(Front Room,Downstairs) / Games Console(Front Room,Downstairs)",TV3A,2013-10-03 01:00,2013-10-27 01:00,24.0
+"TV(Front Room,Downstairs) / DVD / HDD recorder / BlueRay(Front Room,Downstairs) / Freeview(Front Room,Downstairs) / Games Console(Front Room,Downstairs)",TV3A,2013-10-28 00:00,2013-11-01 00:00,4.0
+"TV(Front Room,Downstairs) / DVD / HDD recorder / BlueRay(Front Room,Downstairs) / Freeview(Front Room,Downstairs) / Games Console(Front Room,Downstairs)",TV3A,2013-11-29 00:00,2014-02-27 00:00,90.0
+"TV(Front Room,Downstairs) / DVD / HDD recorder / BlueRay(Front Room,Downstairs) / Freeview(Front Room,Downstairs) / Games Console(Front Room,Downstairs)",TV3A,2014-02-28 00:00,2014-04-05 01:00,36.04
+"TV(Front Room,Downstairs) / DVD / HDD recorder / BlueRay(Front Room,Downstairs) / Freeview(Front Room,Downstairs) / Games Console(Front Room,Downstairs)",TV3A,2014-04-06 01:00,2014-04-14 01:00,8.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2012-03-15 00:00,2012-03-19 00:00,4.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2012-03-21 00:00,2012-03-29 01:00,8.04
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2012-03-30 01:00,2012-04-08 01:00,9.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2012-04-17 01:00,2012-04-19 01:00,2.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2012-04-20 01:00,2012-04-26 01:00,6.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2012-04-27 01:00,2012-05-03 01:00,6.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2012-05-04 01:00,2012-06-05 01:00,32.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2012-06-07 01:00,2012-06-22 01:00,15.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2012-06-23 01:00,2012-06-24 01:00,1.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2012-06-26 01:00,2012-06-30 01:00,4.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2012-07-11 01:00,2012-07-12 01:00,1.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2012-07-14 01:00,2012-07-16 01:00,2.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2012-07-18 01:00,2012-09-15 01:00,59.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2012-11-08 00:00,2012-12-05 00:00,27.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2012-12-23 00:00,2012-12-24 00:00,1.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2012-12-27 00:00,2012-12-29 00:00,2.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2013-01-01 00:00,2013-01-05 00:00,4.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2013-01-20 00:00,2013-02-10 00:00,21.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2013-02-11 00:00,2013-03-21 00:00,38.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2013-03-28 00:00,2013-04-19 01:00,22.04
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2013-04-22 01:00,2013-06-01 01:00,40.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2013-06-02 01:00,2013-06-06 01:00,4.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2013-06-07 01:00,2013-06-15 01:00,8.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2013-06-17 01:00,2013-06-22 01:00,5.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2013-06-26 01:00,2013-06-27 01:00,1.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2013-07-02 01:00,2013-07-06 01:00,4.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2013-07-07 01:00,2013-08-06 01:00,30.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2013-08-09 01:00,2013-08-19 01:00,10.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2013-08-21 01:00,2013-08-23 01:00,2.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2013-08-25 01:00,2013-09-08 01:00,14.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2013-09-13 01:00,2013-09-15 01:00,2.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2013-09-21 01:00,2013-10-08 01:00,17.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2013-10-09 01:00,2013-10-23 01:00,14.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2013-10-24 01:00,2013-10-27 01:00,3.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2013-10-28 00:00,2013-11-01 00:00,4.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2013-11-29 00:00,2013-12-02 00:00,3.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2013-12-03 00:00,2014-02-27 00:00,86.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2014-02-28 00:00,2014-03-17 00:00,17.0
+"Computing Equipment / Laptop (Bedroom 3,Upstairs)",PC2,2014-03-18 00:00,2014-03-29 00:00,11.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2012-03-13 00:00,2012-03-30 01:00,17.04
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2012-04-02 01:00,2012-04-14 01:00,12.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2012-04-15 01:00,2012-04-16 01:00,1.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2012-04-17 01:00,2012-04-19 01:00,2.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2012-04-20 01:00,2012-04-28 01:00,8.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2012-04-30 01:00,2012-05-03 01:00,3.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2012-05-05 01:00,2012-05-11 01:00,6.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2012-05-12 01:00,2012-05-22 01:00,10.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2012-05-25 01:00,2012-06-22 01:00,28.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2012-06-23 01:00,2012-06-25 01:00,2.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2012-06-26 01:00,2012-06-30 01:00,4.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2012-07-03 01:00,2012-07-12 01:00,9.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2012-07-14 01:00,2012-07-15 01:00,1.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2012-07-23 01:00,2012-08-10 01:00,18.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2012-08-14 01:00,2012-09-03 01:00,20.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2012-09-04 01:00,2012-09-10 01:00,6.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2012-09-13 01:00,2012-09-15 01:00,2.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2012-11-08 00:00,2013-06-01 01:00,205.04
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2013-06-02 01:00,2013-06-06 01:00,4.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2013-06-07 01:00,2013-06-15 01:00,8.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2013-06-17 01:00,2013-06-22 01:00,5.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2013-06-26 01:00,2013-06-27 01:00,1.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2013-07-02 01:00,2013-07-06 01:00,4.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2013-07-07 01:00,2013-08-07 01:00,31.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2013-08-09 01:00,2013-08-19 01:00,10.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2013-08-21 01:00,2013-08-23 01:00,2.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2013-08-25 01:00,2013-09-10 01:00,16.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2013-09-11 01:00,2013-09-17 01:00,6.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2013-09-21 01:00,2013-10-27 01:00,36.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2013-10-28 00:00,2013-11-01 00:00,4.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2013-11-29 00:00,2014-03-17 00:00,108.0
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2014-03-18 00:00,2014-04-05 01:00,18.04
+"Computing Equipment / Laptop(Bedroom 2,Upstairs)",PC2,2014-04-06 01:00,2014-04-14 01:00,8.0
+"Computing Equipment(Back Room,Downstairs)",PC2,2011-11-03 00:00,2011-12-26 00:00,53.0
+"Computing Equipment(Back Room,Downstairs)",PC2,2011-12-27 00:00,2012-01-28 00:00,32.0
+"Computing Equipment(Back Room,Downstairs)",PC2,2012-01-31 00:00,2012-02-01 00:00,1.0
+"Computing Equipment(Back Room,Downstairs)",PC2,2012-02-02 00:00,2012-03-05 00:00,32.0
+"Computing Equipment(Back Room,Downstairs)",PC2,2012-03-06 00:00,2012-03-14 00:00,8.0
+"Computing Equipment(Back Room,Downstairs)",PC2,2012-03-15 00:00,2012-03-20 00:00,5.0
+"Computing Equipment(Back Room,Downstairs)",PC2,2012-03-24 00:00,2012-03-25 00:00,1.0
+"Computing Equipment(Back Room,Downstairs)",PC2,2012-04-01 01:00,2012-04-19 01:00,18.0
+"Computing Equipment(Back Room,Downstairs)",PC2,2012-04-24 01:00,2012-06-13 01:00,50.0
+"Computing Equipment(Back Room,Downstairs)",PC2,2012-06-15 01:00,2012-06-21 01:00,6.0
+"Computing Equipment(Back Room,Downstairs)",PC2,2012-06-23 01:00,2012-06-24 01:00,1.0
+"Computing Equipment(Back Room,Downstairs)",PC2,2012-06-26 01:00,2012-06-27 01:00,1.0
+"Computing Equipment(Back Room,Downstairs)",PC2,2012-07-01 01:00,2012-07-16 01:00,15.0
+"Computing Equipment(Back Room,Downstairs)",PC2,2012-07-18 01:00,2012-09-15 01:00,59.0
+"Computing Equipment(Back Room,Downstairs)",PC2,2012-11-08 00:00,2013-01-08 00:00,61.0
+"Computing Equipment(Back Room,Downstairs)",PC2,2013-01-09 00:00,2013-06-01 01:00,143.04
+"Computing Equipment(Back Room,Downstairs)",PC2,2013-06-02 01:00,2013-06-06 01:00,4.0
+"Computing Equipment(Back Room,Downstairs)",PC2,2013-06-07 01:00,2013-06-15 01:00,8.0
+"Computing Equipment(Back Room,Downstairs)",PC2,2013-06-17 01:00,2013-06-22 01:00,5.0
+"Computing Equipment(Back Room,Downstairs)",PC2,2013-06-26 01:00,2013-06-27 01:00,1.0
+"Computing Equipment(Back Room,Downstairs)",PC2,2013-07-02 01:00,2013-07-06 01:00,4.0
+"Computing Equipment(Back Room,Downstairs)",PC2,2013-07-07 01:00,2013-08-06 01:00,30.0
+"Computing Equipment(Back Room,Downstairs)",PC2,2013-08-09 01:00,2013-08-19 01:00,10.0
+"Computing Equipment(Back Room,Downstairs)",PC2,2013-08-21 01:00,2013-08-23 01:00,2.0
+"Computing Equipment(Back Room,Downstairs)",PC2,2013-08-25 01:00,2013-09-10 01:00,16.0
+"Computing Equipment(Back Room,Downstairs)",PC2,2013-09-11 01:00,2013-09-17 01:00,6.0
+"Computing Equipment(Back Room,Downstairs)",PC2,2013-09-21 01:00,2013-10-27 01:00,36.0
+"Computing Equipment(Back Room,Downstairs)",PC2,2013-10-28 00:00,2014-02-27 00:00,122.0
+"Computing Equipment(Back Room,Downstairs)",PC2,2014-02-28 00:00,2014-04-05 01:00,36.04
+"Computing Equipment(Back Room,Downstairs)",PC2,2014-04-06 01:00,2014-04-14 01:00,8.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2011-11-03 00:00,2011-12-26 00:00,53.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2011-12-27 00:00,2012-01-14 00:00,18.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2012-01-15 00:00,2012-01-28 00:00,13.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2012-01-31 00:00,2012-02-01 00:00,1.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2012-02-02 00:00,2012-03-05 00:00,32.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2012-03-06 00:00,2012-03-14 00:00,8.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2012-03-15 00:00,2012-03-20 00:00,5.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2012-03-22 00:00,2012-03-23 00:00,1.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2012-03-24 00:00,2012-03-25 00:00,1.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2012-04-01 01:00,2012-04-16 01:00,15.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2012-04-17 01:00,2012-04-19 01:00,2.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2012-04-24 01:00,2012-05-03 01:00,9.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2012-05-04 01:00,2012-06-13 01:00,40.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2012-06-15 01:00,2012-06-22 01:00,7.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2012-06-23 01:00,2012-06-24 01:00,1.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2012-06-26 01:00,2012-06-27 01:00,1.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2012-07-01 01:00,2012-07-12 01:00,11.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2012-07-14 01:00,2012-07-16 01:00,2.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2012-07-18 01:00,2012-09-15 01:00,59.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2012-11-08 00:00,2013-01-08 00:00,61.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2013-01-09 00:00,2013-06-01 01:00,143.04
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2013-06-02 01:00,2013-06-06 01:00,4.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2013-06-07 01:00,2013-06-15 01:00,8.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2013-06-17 01:00,2013-06-22 01:00,5.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2013-06-26 01:00,2013-06-27 01:00,1.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2013-07-02 01:00,2013-07-06 01:00,4.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2013-07-07 01:00,2013-08-06 01:00,30.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2013-08-09 01:00,2013-08-19 01:00,10.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2013-08-21 01:00,2013-08-23 01:00,2.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2013-08-25 01:00,2013-09-10 01:00,16.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2013-09-11 01:00,2013-09-17 01:00,6.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2013-09-21 01:00,2013-10-27 01:00,36.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2013-10-28 00:00,2013-12-02 00:00,35.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2013-12-03 00:00,2014-02-27 00:00,86.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2014-02-28 00:00,2014-03-17 00:00,17.0
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2014-03-18 00:00,2014-04-05 01:00,18.04
+"Washing Machine(Kitchen/utility room,Downstairs)",WASH,2014-04-06 01:00,2014-04-14 01:00,8.0
+"Lamp(Bedroom 4,Upstairs)",TL,2011-11-03 00:00,2011-12-26 00:00,53.0
+"Lamp(Bedroom 4,Upstairs)",TL,2011-12-27 00:00,2012-01-14 00:00,18.0
+"Lamp(Bedroom 4,Upstairs)",TL,2012-01-15 00:00,2012-01-28 00:00,13.0
+"Lamp(Bedroom 4,Upstairs)",TL,2012-01-31 00:00,2012-02-01 00:00,1.0
+"Lamp(Bedroom 4,Upstairs)",TL,2012-02-02 00:00,2012-03-05 00:00,32.0
+"Lamp(Bedroom 4,Upstairs)",TL,2012-03-06 00:00,2012-03-14 00:00,8.0
+"Lamp(Bedroom 4,Upstairs)",TL,2012-03-15 00:00,2012-03-20 00:00,5.0
+"Lamp(Bedroom 4,Upstairs)",TL,2012-03-24 00:00,2012-03-25 00:00,1.0
+"Lamp(Bedroom 4,Upstairs)",TL,2012-04-01 01:00,2012-04-16 01:00,15.0
+"Lamp(Bedroom 4,Upstairs)",TL,2012-04-17 01:00,2012-04-19 01:00,2.0
+"Lamp(Bedroom 4,Upstairs)",TL,2012-04-24 01:00,2012-05-03 01:00,9.0
+"Lamp(Bedroom 4,Upstairs)",TL,2012-05-04 01:00,2012-06-13 01:00,40.0
+"Lamp(Bedroom 4,Upstairs)",TL,2012-06-15 01:00,2012-06-21 01:00,6.0
+"Lamp(Bedroom 4,Upstairs)",TL,2012-06-23 01:00,2012-06-24 01:00,1.0
+"Lamp(Bedroom 4,Upstairs)",TL,2012-06-26 01:00,2012-06-27 01:00,1.0
+"Lamp(Bedroom 4,Upstairs)",TL,2012-07-01 01:00,2012-07-12 01:00,11.0
+"Lamp(Bedroom 4,Upstairs)",TL,2012-07-14 01:00,2012-07-16 01:00,2.0
+"Lamp(Bedroom 4,Upstairs)",TL,2012-07-18 01:00,2012-09-15 01:00,59.0
+"Lamp(Bedroom 4,Upstairs)",TL,2012-11-08 00:00,2013-01-08 00:00,61.0
+"Lamp(Bedroom 4,Upstairs)",TL,2013-01-09 00:00,2013-06-01 01:00,143.04
+"Lamp(Bedroom 4,Upstairs)",TL,2013-06-02 01:00,2013-06-06 01:00,4.0
+"Lamp(Bedroom 4,Upstairs)",TL,2013-06-07 01:00,2013-06-15 01:00,8.0
+"Lamp(Bedroom 4,Upstairs)",TL,2013-06-17 01:00,2013-06-22 01:00,5.0
+"Lamp(Bedroom 4,Upstairs)",TL,2013-06-26 01:00,2013-06-27 01:00,1.0
+"Lamp(Bedroom 4,Upstairs)",TL,2013-07-02 01:00,2013-07-06 01:00,4.0
+"Lamp(Bedroom 4,Upstairs)",TL,2013-07-07 01:00,2013-08-06 01:00,30.0
+"Lamp(Bedroom 4,Upstairs)",TL,2013-08-09 01:00,2013-08-19 01:00,10.0
+"Lamp(Bedroom 4,Upstairs)",TL,2013-08-21 01:00,2013-08-23 01:00,2.0
+"Lamp(Bedroom 4,Upstairs)",TL,2013-08-25 01:00,2013-09-10 01:00,16.0
+"Lamp(Bedroom 4,Upstairs)",TL,2013-09-11 01:00,2013-09-17 01:00,6.0
+"Lamp(Bedroom 4,Upstairs)",TL,2013-09-21 01:00,2013-10-27 01:00,36.0
+"Lamp(Bedroom 4,Upstairs)",TL,2013-10-28 00:00,2013-12-02 00:00,35.0
+"Lamp(Bedroom 4,Upstairs)",TL,2013-12-03 00:00,2014-02-27 00:00,86.0
+"Lamp(Bedroom 4,Upstairs)",TL,2014-02-28 00:00,2014-03-17 00:00,17.0
+"Lamp(Bedroom 4,Upstairs)",TL,2014-03-18 00:00,2014-04-05 01:00,18.04
+"Lamp(Bedroom 4,Upstairs)",TL,2014-04-06 01:00,2014-04-14 01:00,8.0

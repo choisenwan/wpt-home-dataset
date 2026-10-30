@@ -1,0 +1,768 @@
+house,dataset,channel_index,label,sensor,decision,reason_if_not_kept,battery_model_if_kept,in_use_rule,standby_levels_w,in_use_threshold_w,working_median_w,second_standby_minutes,in_use_share_of_observed,observed_days
+darck_1,darck,0,lightbathroom,,keep,,CEIL,R3.2,[0.0],2.0,4.3,0,0.1167,184.0
+darck_1,darck,1,lighthallway,,keep,,CEIL,R3.2,[0.0],2.0,8.7,0,0.0859,184.0
+darck_1,darck,2,lightsherlock,,keep,,CEIL,R3.2,[0.0],2.0,60.1,0,0.0241,184.0
+darck_1,darck,3,lightkitchen,,keep,,CEIL,R3.2,[0.0],2.0,14.8,0,0.1234,184.0
+darck_1,darck,4,lightwatson,,keep,,CEIL,R3.2,[0.0],2.0,9.1,0,0.0113,94.7
+darck_1,darck,5,lightstoreroom,,keep,,CEIL,R3.2,[0.0],2.0,6.8,0,0.0162,184.0
+darck_1,darck,6,fcob,,keep,,LT,R3.2,[0.0],2.0,35.7,0,0.1186,184.0
+darck_1,darck,7,fridge,,exclude,exclude:always on / infrastructure,,,,,,,,
+darck_1,darck,8,sherlockalarmclocklight,,keep,,LT,R3.2,"[0.0, 0.3]",2.39,6.3,0,0.008,184.0
+darck_1,darck,9,sherlockcharger,,keep,,TABLET,R3.2,[0.0],2.0,8.6,0,0.0867,184.0
+darck_1,darck,10,sherlockfloorlamphue,,keep,,TL,R3.2,[0.0],2.0,7.6,0,0.2783,184.0
+darck_1,darck,11,sherlockguitaramp,,keep,,GAMP,R3.2,[0.0],2.0,6.6,0,0.0033,184.0
+darck_1,darck,12,sherlockhairdryer,,keep,,HD,R3.2,[0.0],2.0,850.4,0,0.0013,184.0
+darck_1,darck,13,sherlockledstrip,,exclude,exclude:in use > 50 % (always on),,R3.2,[0.0],2.0,5.1,0,0.6978,184.0
+darck_1,darck,14,sherlockmonitor,,keep,,TV3A,R3.2,"[0.0, 0.9, 1.0]",3.33,59.7,0,0.1634,184.0
+darck_1,darck,15,sherlockpc,,keep,,PC2,R3.2,[0.0],2.0,89.8,0,0.2215,184.0
+darck_1,darck,16,sherlockserver,,exclude,exclude:always on / infrastructure,,,,,,,,
+darck_1,darck,17,sherlocktv,,keep,,TV3A,R3.2,[0.0],2.0,27.2,0,0.1124,184.0
+darck_1,darck,18,kettle,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+darck_1,darck,19,blender,,keep,,BLEND,R3.2,[0.0],2.0,7.5,0,0.0,184.0
+darck_1,darck,20,kitchensoundsystem,,keep,,SPK_KITCHEN,R3.2,[0.0],2.0,3.4,0,0.0065,184.0
+darck_1,darck,21,microwave,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+darck_1,darck,22,watsoncharger,,keep,,TABLET,R3.2,[0.0],2.0,8.8,0,0.0603,184.0
+darck_1,darck,23,watsondesklamp,,keep,,TL,R3.2,[0.0],2.0,2.2,0,0.0985,86.0
+darck_1,darck,24,watsonfan,,keep,,FAN,R3.2,[0.0],2.0,15.8,0,0.0861,84.9
+darck_1,darck,25,watsonfloorlamp,,keep,,TL,R3.2,[0.0],2.0,28.9,0,0.0166,86.0
+darck_1,darck,26,watsonipadcharger,,exclude,exclude:fewer than 60 observed days,,,,,,,,53.4
+darck_1,darck,27,watsonlaptop,,keep,,PC2,R3.2,[0.0],2.0,23.2,0,0.1061,184.0
+darck_1,darck,28,watsonledmap,,keep,,LT,R3.2,"[0.0, 0.4]",2.52,14.4,0,0.0014,86.4
+darck_1,darck,29,watsonmonitor,,keep,,TV3A,R3.2,[0.0],2.0,18.1,0,0.1453,85.4
+darck_1,darck,30,watsonpiano,,exclude,exclude:no use detected,,R3.2,[0.0],2.0,,0,0.0,84.4
+darck_1,darck,31,watsonvinylplayer,,keep,,VINYL,R3.2,[1.4],3.82,4.2,0,0.0016,92.7
+darck_1,darck,32,printerscanner,,keep,,PRINT,R3.2,[0.0],2.0,11.0,0,0.0024,184.0
+darck_1,darck,33,router,,exclude,exclude:always on / infrastructure,,,,,,,,
+darck_1,darck,34,vacuum,,keep,,VC,R3.2,[0.0],2.0,591.9,0,0.002,184.0
+darck_1,darck,35,washingmachine,,keep,,WASH,R3.2,[0.0],2.0,5.4,3969,0.0246,184.0
+darck_1,darck,36,wheymixer,,keep,,SHAKER,R3.2,[0.0],2.0,11.0,0,0.0003,184.0
+darck_1,darck,37,stoveovenl3,,drop,drop:no real battery product,,,,,,,,
+darck_1,darck,38,stoveplatel1,,drop,drop:no real battery product,,,,,,,,
+darck_1,darck,39,stoveplatel2,,drop,drop:no real battery product,,,,,,,,
+darck_1,darck,40,sherlocklaptop,,exclude,exclude:fewer than 60 observed days,,,,,,,,59.2
+darck_1,darck,41,lightlivingroom,,keep,,CEIL,R3.2,[0.0],2.0,46.7,0,0.0079,84.4
+darck_1,darck,42,livingfloorlamphue,,keep,,TL,R3.2,[0.0],2.0,3.7,0,0.0946,85.4
+darck_1,darck,43,sherlockglobe,,keep,,LT,R3.2,[0.0],2.0,3.8,0,0.1091,88.2
+darck_1,darck,44,htpc,,keep,,PC2,R3.2,[0.0],2.0,14.0,0,0.1519,88.3
+darck_1,darck,45,drill,,keep,,DRILL,R3.2,[0.0],2.0,20.2,0,0.0,99.5
+darck_1,darck,46,airmattress,,keep,,PUMP,R3.2,[0.0],2.0,37.5,0,0.0001,184.0
+darck_1,darck,47,sherlockdesk,,keep,,DESK,R3.2,"[0.0, 0.3, 0.4, 0.5]",2.64,5.7,0,0.0012,88.2
+darck_1,darck,48,kitchencharger,,keep,,TABLET,R3.2,[0.0],2.0,5.6,0,0.0001,184.0
+darck_1,darck,49,solderingiron,,exclude,exclude:fewer than 60 observed days,,,,,,,,53.5
+darck_1,darck,50,mixer,,exclude,exclude:fewer than 60 observed days,,,,,,,,44.2
+leedr_H01,leedr,0,"Freezer(Kitchen/utility room,Downstairs) / No of plugs(Landing,Upstairs)",LBORO-SMART-020,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H01,leedr,1,"Fridge(Kitchen/utility room,Downstairs) / FridgeFreezer(Kitchen/utility room,Downstairs)",LBORO-SMART-032,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H01,leedr,2,"Battery Charger(Garage/Shed,Downstairs)",LBORO-SMART-033,keep,,TABLET,R3.2,[1.0],3.3,4.0,0,0.0064,599.1
+leedr_H01,leedr,3,"Toaster(Kitchen/utility room,Downstairs)",LBORO-SMART-022,drop,drop:no real battery product,,,,,,,,
+leedr_H01,leedr,4,"Lamp 1(Bedroom 2,Upstairs)",LBORO-SMART-027,keep,,TL,R3.2,[0.0],2.0,10.0,0,0.0165,595.1
+leedr_H01,leedr,5,"Computing Equipment(Bedroom 4,Upstairs)",LBORO-SMART-035,keep,,PC2,R3.2,[0.0],2.0,15.0,0,0.1287,550.1
+leedr_H01,leedr,6,"Microwave(Kitchen/utility room,Downstairs)",LBORO-SMART-021,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+leedr_H01,leedr,7,"TV(Back Room,Downstairs) / Cable Decoder(Back Room,Downstairs) / Stereo(Back Room,Downstairs)",LBORO-SMART-029,keep,,TV3A,R3.2,[12.0],17.6,40.0,0,0.093,770.1
+leedr_H01,leedr,8,"Computing Equipment / Laptop(Front Room,Downstairs)",LBORO-SMART-016,keep,,PC2,R3.2,[0.0],2.0,15.0,540,0.205,721.1
+leedr_H01,leedr,9,Small Power Down,LBORO-MET-010,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H01,leedr,10,"Dishwasher(Kitchen/utility room,Downstairs)",LBORO-SMART-034,drop,drop:no real battery product,,,,,,,,
+leedr_H01,leedr,11,Mains 1,LBORO-MET-008,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H01,leedr,12,Lights Down,LBORO-MET-009,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H01,leedr,13,"Hair Styling(Bedroom 1,Upstairs)",LBORO-SMART-018,keep,,HD,R3.2,[0.0],2.0,285.0,0,0.0021,763.1
+leedr_H01,leedr,14,"TV(Front Room,Downstairs) / DVD / HDD recorder / BlueRay(Front Room,Downstairs) / Freeview(Front Room,Downstairs) / Games Console(Front Room,Downstairs)",LBORO-SMART-025-removed-21st-Sept,exclude,exclude:in use > 50 % (always on),,R3.2,[5.0],8.5,69.0,6675,0.5929,393.0
+leedr_H01,leedr,15,"Aquarium Pump and Heater(Front Room,Downstairs)",LBORO-SMART-026,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H01,leedr,16,"TV(Front Room,Downstairs) / DVD / HDD recorder / BlueRay(Front Room,Downstairs) / Freeview(Front Room,Downstairs) / Games Console(Front Room,Downstairs)",LBORO-SMART-025-new-2nd-Oct-13,keep,,TV3A,R3.2,[5.0],8.5,48.0,2593,0.3746,162.0
+leedr_H01,leedr,17,Shower 1,LBORO-MET-114,drop,drop:no real battery product,,,,,,,,
+leedr_H01,leedr,18,"Computing Equipment / Laptop (Bedroom 3,Upstairs)",LBORO-SMART-121,keep,,PC2,R3.2,[0.0],2.0,33.0,0,0.029,539.1
+leedr_H01,leedr,19,"Sandwich Toaster(Kitchen/utility room,Downstairs)",LBORO-SMART-030,drop,drop:no real battery product,,,,,,,,
+leedr_H01,leedr,20,Cooker,LBORO-MET-013,drop,drop:no real battery product,,,,,,,,
+leedr_H01,leedr,21,"Tumble Drier(Kitchen/utility room,Downstairs)",LBORO-SMART-019,drop,drop:no real battery product,,,,,,,,
+leedr_H01,leedr,22,Solar PV,LBORO-MET-115,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H01,leedr,23,"Computing Equipment / Laptop(Bedroom 2,Upstairs)",LBORO-SMART-134,keep,,PC2,R3.2,"[8.0, 9.0]",13.7,106.0,1012,0.142,615.1
+leedr_H01,leedr,24,"Computing Equipment(Back Room,Downstairs)",LBORO-SMART-028,keep,,PC2,R3.2,[13.0],18.9,25.0,298038,0.0555,774.1
+leedr_H01,leedr,25,"Washing Machine(Kitchen/utility room,Downstairs)",LBORO-SMART-031,keep,,WASH,R3.2,[0.0],2.0,120.0,0,0.0368,769.1
+leedr_H01,leedr,26,"Kettle(Kitchen/utility room,Downstairs)",LBORO-SMART-023,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+leedr_H01,leedr,27,Lights Up,LBORO-MET-014,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H01,leedr,28,"Lamp(Bedroom 4,Upstairs)",LBORO-SMART-024,keep,,TL,R3.2,[0.0],2.0,7.0,0,0.0174,767.1
+leedr_H05,leedr,0,"Microwave(Kitchen/utility room,Downstairs)",LBORO-SMART-084,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+leedr_H05,leedr,1,Small Power Down,LBORO-MET-039,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H05,leedr,2,"TV(Bedroom 1,Upstairs)",LBORO-SMART-078,keep,,TV3A,R3.2,[0.0],2.0,27.0,1364,0.042,638.0
+leedr_H05,leedr,3,"Computing Equipment(Front Room,Downstairs)",LBORO-SMART-091,keep,,PC2,R3.2,[0.0],2.0,54.0,0,0.0797,634.0
+leedr_H05,leedr,4,"Lamp 1(Bedroom 2,Upstairs)",LBORO-SMART-077-removed,exclude,exclude:fewer than 60 observed days,,,,,,,,27.0
+leedr_H05,leedr,5,"Hair Styling(Landing,Upstairs)",LBORO-SMART-090,keep,,HD,R3.2,[0.0],2.0,167.0,0,0.0041,587.0
+leedr_H05,leedr,6,"Tumble Drier(Garage/Shed,Downstairs)",LBORO-SMART-095,drop,drop:no real battery product,,,,,,,,
+leedr_H05,leedr,7,"Games Console(Back Room,Downstairs)",LBORO-SMART-081,keep,,SWITCH,R3.2,[0.0],2.0,8.0,0,0.2897,551.1
+leedr_H05,leedr,8,"Slow cooker(Kitchen/utility room,Downstairs)",LBORO-SMART-079,drop,drop:no real battery product,,,,,,,,
+leedr_H05,leedr,9,"Fridge(Garage/Shed,Downstairs)",LBORO-SMART-096,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H05,leedr,10,"Lamp(Front Room,Downstairs) / Computing Equipment / Laptop(Front Room,Downstairs)",LBORO-SMART-092,keep,,TL,R3.2,[0.0],2.0,14.0,0,0.1043,654.0
+leedr_H05,leedr,11,"Ipad Charger(Front Room,Downstairs) / Mobile Charger(Front Room,Downstairs)",LBORO-SMART-089,keep,,TABLET,R3.2,"[0.0, 2.0]",4.6,7.0,0,0.0219,693.1
+leedr_H05,leedr,12,"Washing Machine(Kitchen/utility room,Downstairs)",LBORO-SMART-080,keep,,WASH,R3.2,"[0.0, 1.0]",3.3,153.0,0,0.0476,672.0
+leedr_H05,leedr,13,"Freezer(Garage/Shed,Downstairs)",LBORO-SMART-093,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H05,leedr,14,"Kettle(Kitchen/utility room,Downstairs)",LBORO-SMART-086,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+leedr_H05,leedr,15,Cooker,LBORO-MET-040,drop,drop:no real battery product,,,,,,,,
+leedr_H05,leedr,16,"TV(Back Room,Downstairs)",LBORO-SMART-082,keep,,TV3A,R3.2,[0.0],2.0,192.0,0,0.2065,656.0
+leedr_H05,leedr,17,Small Power Up,LBORO-MET-041,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H05,leedr,18,Lights Down,LBORO-MET-037,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H05,leedr,19,"Toaster(Kitchen/utility room,Downstairs)",LBORO-SMART-085,drop,drop:no real battery product,,,,,,,,
+leedr_H05,leedr,20,"Ipod Dock / Laptop(Bedroom 2,Upstairs)",LBORO-SMART-088,keep,,SPK_KITCHEN,R3.2,[0.0],2.0,16.0,273,0.0746,231.1
+leedr_H05,leedr,21,Mains 1,LBORO-MET-109,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H05,leedr,22,"Lamp(Bedroom 1,Upstairs)",LBORO-SMART-087,keep,,TL,R3.2,[0.0],2.0,8.0,0,0.0737,654.0
+leedr_H05,leedr,23,Hob,LBORO-MET-036,drop,drop:no real battery product,,,,,,,,
+leedr_H05,leedr,24,Lights Up,LBORO-MET-038,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H08,leedr,0,"Tumble Drier(Kitchen/utility room,Downstairs)",LBORO-SMART-377,drop,drop:no real battery product,,,,,,,,
+leedr_H08,leedr,1,Sockets Hall Dining,LBORO-MET-686,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H08,leedr,2,Small Power Down,LBORO-MET-677,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H08,leedr,3,Shower 2 (Loft in H45),LBORO-MET-704,drop,drop:no real battery product,,,,,,,,
+leedr_H08,leedr,4,"Lights bath ensuite 1,2,4 & smoke alarm",LBORO-MET-701,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H08,leedr,5,"Immersion Now Gas cam socket with tumble drier in, and hot waterflow DAQ",LBORO-MET-699,drop,drop:no real battery product,,,,,,,,
+leedr_H08,leedr,6,Lights Up,LBORO-MET-696,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H08,leedr,7,Cooker,LBORO-MET-702,drop,drop:no real battery product,,,,,,,,
+leedr_H08,leedr,8,Lights Down,LBORO-MET-692,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H08,leedr,9,Small Power Up,LBORO-MET-674,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H08,leedr,10,Sockets Extension,LBORO-MET-679,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H08,leedr,11,Shower 1,LBORO-MET-703,drop,drop:no real battery product,,,,,,,,
+leedr_H08,leedr,12,Mains 1,LBORO-MET-095,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H08,leedr,13,"LEEDR Routing purposes only(Bedroom 2,Upstairs)",LBORO-SMART-380,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H08,leedr,14,Circuit 1 / Not Known,LBORO-MET-693,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H09,leedr,0,Cooker,LBORO-MET-019,drop,drop:no real battery product,,,,,,,,
+leedr_H09,leedr,1,"Fridge(Kitchen/utility room,Downstairs)",LBORO-SMART-052,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H09,leedr,2,"Lamp(Bedroom 3,Upstairs)",LBORO-SMART-039,keep,,TL,R3.2,[0.0],2.0,38.0,0,0.0083,883.1
+leedr_H09,leedr,3,Mains 1,LBORO-MET-021,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H09,leedr,4,"Hair Styling(Bedroom 1,Upstairs)",LBORO-SMART-041,keep,,HD,R3.2,[0.0],2.0,79.5,0,0.0041,805.1
+leedr_H09,leedr,5,"Dishwasher(Kitchen/utility room,Downstairs)",LBORO-SMART-037,drop,drop:no real battery product,,,,,,,,
+leedr_H09,leedr,6,"Vaccum Cleaner(Kitchen/utility room,Downstairs)",LBORO-SMART-048,keep,,VC,R3.2,[0.0],2.0,363.0,548,0.0012,662.0
+leedr_H09,leedr,7,"TV(Bedroom 1,Upstairs) / Cable Decoder(Bedroom 1,Upstairs)",LBORO-SMART-042,keep,,TV3A,R3.2,[0.0],2.0,22.0,0,0.0072,814.1
+leedr_H09,leedr,8,"Electric Fan Heater(Kitchen/utility room,Downstairs)",LBORO-SMART-220,drop,drop:no real battery product,,,,,,,,
+leedr_H09,leedr,9,Solar PV,LBORO-MET-118,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H09,leedr,10,"TV(Front Room,Downstairs) / DVD / HDD recorder / BlueRay(Front Room,Downstairs) / Cable Decoder(Front Room,Downstairs)",LBORO-SMART-045,keep,,TV3A,R3.2,[0.0],2.0,173.0,1824,0.3143,864.1
+leedr_H09,leedr,11,"Microwave(Kitchen/utility room,Downstairs)",LBORO-SMART-050,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+leedr_H09,leedr,12,Small Power Up,LBORO-MET-018,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H09,leedr,13,"Washing Machine(Kitchen/utility room,Downstairs)",LBORO-SMART-036,keep,,WASH,R3.2,[0.0],2.0,129.0,0,0.0245,886.1
+leedr_H09,leedr,14,"Ipod Dock / Laptop(Bedroom 2,Upstairs)",LBORO-SMART-040,keep,,SPK_KITCHEN,R3.2,[0.0],2.0,3.0,0,0.0027,875.1
+leedr_H09,leedr,15,Water Heater (solarH28),LBORO-MET-022,drop,drop:no real battery product,,,,,,,,
+leedr_H09,leedr,16,"Propergator(Bedroom 4,Upstairs)",LBORO-SMART-219,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H09,leedr,17,Small Power Down,LBORO-MET-017,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H09,leedr,18,"Television(Kitchen/utility room,Downstairs)",LBORO-SMART-054,keep,,TV3A,R3.2,[0.0],2.0,29.0,0,0.0161,776.1
+leedr_H09,leedr,19,Sockets 1,LBORO-MET-016,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H09,leedr,20,"Computing Equipment / Laptop(Bedroom 2,Upstairs)",LBORO-SMART-221,keep,,PC2,R3.2,[0.0],2.0,11.0,0,0.0917,279.0
+leedr_H09,leedr,21,"Kettle(Kitchen/utility room,Downstairs)",LBORO-SMART-055,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+leedr_H09,leedr,22,"Tumble Drier(Kitchen/utility room,Downstairs)",LBORO-SMART-044,drop,drop:no real battery product,,,,,,,,
+leedr_H09,leedr,23,Lights Down,LBORO-MET-023,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H09,leedr,24,Shower 1,LBORO-MET-116,drop,drop:no real battery product,,,,,,,,
+leedr_H09,leedr,25,"Freezer(Kitchen/utility room,Downstairs)",LBORO-SMART-053,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H09,leedr,26,"Lamp(Bedroom 1,Upstairs)",LBORO-SMART-047,keep,,TL,R3.2,[0.0],2.0,10.0,0,0.0309,884.1
+leedr_H09,leedr,27,"TV(Bedroom 4,Upstairs) / Gaming(Bedroom 4,Upstairs)",LBORO-SMART-043,keep,,TV3A,R3.2,"[0.0, 3.0]",5.9,17.0,54632,0.0249,790.0
+leedr_H09,leedr,28,"Freezer(Garage/Shed,Downstairs)",LBORO-SMART-049,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H09,leedr,29,"Computing Equipment / Laptop(Front Room,Downstairs)",LBORO-SMART-038,keep,,PC2,R3.2,"[0.0, 2.0]",4.6,114.0,1302,0.0967,886.1
+leedr_H09,leedr,30,"Lamp(Bedroom 1,Upstairs)",LBORO-SMART-046,keep,,TL,R3.2,[0.0],2.0,10.0,0,0.0214,884.1
+leedr_H09,leedr,31,Lights Up,LBORO-MET-015,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H09,leedr,32,Extension Lights,LBORO-MET-020,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H09,leedr,33,"Toaster(Kitchen/utility room,Downstairs)",LBORO-SMART-051,drop,drop:no real battery product,,,,,,,,
+leedr_H10,leedr,0,"Washing Machine(Kitchen/utility room,Downstairs)",LBORO-SMART-222,keep,,WASH,R3.2,[0.0],2.0,110.0,0,0.0884,645.1
+leedr_H10,leedr,1,Freezer and FridgeFreezer ,LBORO-MET-600,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H10,leedr,2,Small Power Up,LBORO-MET-012,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H10,leedr,3,"Mobile Charger(Front Room,Downstairs)",LBORO-SMART-232,keep,,TABLET,R3.2,[0.0],2.0,4.0,0,0.026,699.1
+leedr_H10,leedr,4,FridgeFreezer ,LBORO-MET-601,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H10,leedr,5,"Tumble Drier(Kitchen/utility room,Downstairs)",LBORO-SMART-224,drop,drop:no real battery product,,,,,,,,
+leedr_H10,leedr,6,"Hoover(Landing,Upstairs)",LBORO-SMART-241,exclude,exclude:fewer than 60 observed days,,,,,,,,1.0
+leedr_H10,leedr,7,"Ipad Charger(Front Room,Downstairs)",LBORO-SMART-240,keep,,TABLET,R3.2,[0.0],2.0,4.0,0,0.0229,653.1
+leedr_H10,leedr,8,"Dishwasher(Kitchen/utility room,Downstairs)",LBORO-SMART-223,drop,drop:no real battery product,,,,,,,,
+leedr_H10,leedr,9,"Lamp(Bedroom 3,Upstairs)",LBORO-SMART-238,keep,,TL,R3.2,[0.0],2.0,9.0,0,0.0152,692.1
+leedr_H10,leedr,10,"Coffee maker(Kitchen/utility room,Downstairs)",LBORO-SMART-228,keep,,CM,R3.2,[0.0],2.0,639.0,0,0.0026,685.1
+leedr_H10,leedr,11,"Lamp(Front Room,Downstairs)",LBORO-SMART-231,exclude,exclude:power inconsistent with label (TL),,,,,,,,417.1
+leedr_H10,leedr,12,"Kettle(Kitchen/utility room,Downstairs)",LBORO-SMART-226,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+leedr_H10,leedr,13,"Microwave(Kitchen/utility room,Downstairs)",LBORO-SMART-225,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+leedr_H10,leedr,14,"Dehumidifier(Bedroom 1,Upstairs)",LBORO-SMART-236,drop,drop:no real battery product,,,,,,,,
+leedr_H10,leedr,15,Mains 1,LBORO-MET-035,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H10,leedr,16,Lights Up,LBORO-MET-011,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H10,leedr,17,"Mobile Charger(Bedroom 1,Upstairs)",LBORO-SMART-235,keep,,TABLET,R3.2,[0.0],2.0,4.0,0,0.0198,694.1
+leedr_H10,leedr,18,"Laptop(Back Room,Downstairs)",LBORO-SMART-233,keep,,PC2,R3.2,[0.0],2.0,13.0,0,0.0839,490.1
+leedr_H10,leedr,19,"Lamp(Bedroom 1,Upstairs)",LBORO-SMART-234,keep,,TL,R3.2,[0.0],2.0,8.0,0,0.0154,646.1
+leedr_H10,leedr,20,"Computing Equipment / Laptop(Bedroom 2,Upstairs)",LBORO-SMART-237,keep,,PC2,R3.2,"[9.0, 10.0]",15.0,17.0,0,0.1659,650.1
+leedr_H10,leedr,21,Lights Down,LBORO-MET-044,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H10,leedr,22,"Toaster(Kitchen/utility room,Downstairs)",LBORO-SMART-227,drop,drop:no real battery product,,,,,,,,
+leedr_H10,leedr,23,"TV(Front Room,Downstairs) / DVD / HDD recorder / BlueRay(Front Room,Downstairs) / Cable Decoder(Front Room,Downstairs)",LBORO-SMART-229,keep,,TV3A,R3.2,[30.0],41.0,131.0,64252,0.1948,543.1
+leedr_H10,leedr,24,"Hair Styling(Landing,Upstairs)",LBORO-SMART-239,keep,,HD,R3.2,[0.0],2.0,917.0,0,0.0022,485.0
+leedr_H10,leedr,25,Small Power Down,LBORO-MET-042,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H11,leedr,0,Mains 1,LBORO-MET-625,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H11,leedr,1,"TV(Front Room,Downstairs) / Freeview(Front Room,Downstairs) / Games Console(Front Room,Downstairs) / Stereo(Front Room,Downstairs)",LBORO-SMART-108,keep,,TV3A,R3.2,[7.0],11.1,17.0,191842,0.1653,496.1
+leedr_H11,leedr,2,"Computing Equipment / Laptop (Bedroom 3,Upstairs)",LBORO-SMART-098,keep,,PC2,R3.2,[0.0],2.0,26.0,0,0.0641,479.1
+leedr_H11,leedr,3,"Hair Styling(Bedroom 1,Upstairs)",LBORO-SMART-099,keep,,HD,R3.2,[0.0],2.0,751.5,0,0.0027,150.0
+leedr_H11,leedr,4,"Laptop(Back Room,Downstairs)",LBORO-SMART-109,keep,,PC2,R3.2,[0.0],2.0,21.0,0,0.0313,185.0
+leedr_H11,leedr,5,"Lamp(Bedroom 1,Upstairs)",LBORO-SMART-100,exclude,exclude:power inconsistent with label (TL),,,,,,,,460.1
+leedr_H11,leedr,6,Small Power Down / Small Power Up / Lights Down / Lights Up,LBORO-MET-047,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H11,leedr,7,"Iron(Kitchen/utility room,Downstairs)",LBORO-SMART-101,exclude,exclude:working power too low for IRON,,,,,,,,176.0
+leedr_H11,leedr,8,FridgeFreezer ,LBORO-MET-048,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H11,leedr,9,"Kettle(Kitchen/utility room,Downstairs)",LBORO-SMART-107,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+leedr_H11,leedr,10,"Washing Machine(Kitchen/utility room,Downstairs)",LBORO-SMART-106,keep,,WASH,R3.2,[0.0],2.0,135.0,0,0.0329,185.0
+leedr_H11,leedr,11,"Vaccum Cleaner(Kitchen/utility room,Downstairs) / Computing Equipment(Front Room,Downstairs)",LBORO-SMART-111,keep,,PC2,R3.2,[4.0],7.2,26.0,0,0.0161,184.0
+leedr_H11,leedr,12,Cooker,LBORO-MET-049,drop,drop:no real battery product,,,,,,,,
+leedr_H11,leedr,13,"Microwave(Kitchen/utility room,Downstairs)",LBORO-SMART-102,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+leedr_H11,leedr,14,"Toaster(Kitchen/utility room,Downstairs)",LBORO-SMART-104,drop,drop:no real battery product,,,,,,,,
+leedr_H18,leedr,0,"Toaster(Kitchen/utility room,Downstairs)",LBORO-SMART-323,drop,drop:no real battery product,,,,,,,,
+leedr_H18,leedr,1,Mains 1,LBORO-MET-620,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H18,leedr,2,"Tumble Drier(Garage/Shed,Downstairs)",LBORO-SMART-328,drop,drop:no real battery product,,,,,,,,
+leedr_H18,leedr,3,Sockets 1,LBORO-MET-621,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H18,leedr,4,"Mobile Charger(Kitchen/utility room,Downstairs)",LBORO-SMART-325,keep,,TABLET,R3.2,[0.0],2.0,4.0,0,0.0295,426.0
+leedr_H18,leedr,5,"TV(Front Room,Downstairs)",LBORO-SMART-326,keep,,TV3A,R3.2,[0.0],2.0,116.0,20527,0.2816,609.0
+leedr_H18,leedr,6,Lights Down,LBORO-MET-624,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H18,leedr,7,Freezer,LBORO-MET-642,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H18,leedr,8,Sockets 2,LBORO-MET-639,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H18,leedr,9,"Computing Equipment(Bedroom 1,Upstairs)",LBORO-SMART-329,keep,,PC2,R3.2,[0.0],2.0,10.0,0,0.0551,94.0
+leedr_H18,leedr,10,"Washing Machine(Kitchen/utility room,Downstairs)",LBORO-SMART-321,keep,,WASH,R3.2,"[0.0, 3.0]",5.9,138.0,0,0.0815,631.1
+leedr_H18,leedr,11,"Stereo(Front Room,Downstairs)",LBORO-SMART-327,keep,,SPK_HIFI,R3.2,[15.0],21.5,27.0,0,0.0247,381.1
+leedr_H18,leedr,12,"Dishwasher(Kitchen/utility room,Downstairs)",LBORO-SMART-324,drop,drop:no real battery product,,,,,,,,
+leedr_H18,leedr,13,"Microwave(Kitchen/utility room,Downstairs)",LBORO-SMART-334,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+leedr_H18,leedr,14,"Kettle(Kitchen/utility room,Downstairs)",LBORO-SMART-322,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+leedr_H18,leedr,15,"Cochlar Implant Charger(Bedroom 2,Upstairs)",LBORO-SMART-330,keep,,TABLET,R3.2,[0.0],2.0,10.0,0,0.0015,488.1
+leedr_H18,leedr,16,Cooker,LBORO-MET-622,drop,drop:no real battery product,,,,,,,,
+leedr_H18,leedr,17,Lights Up,LBORO-MET-623,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H18,leedr,18,"Hair Styling(Bedroom 2,Upstairs)",LBORO-SMART-331,keep,,HD,R3.2,[0.0],2.0,1617.0,0,0.0023,269.1
+leedr_H18,leedr,19,Fridge 1,LBORO-MET-641,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H23,leedr,0,Garage / Shed,LBORO-MET-685,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H23,leedr,1,Sockets 2,LBORO-MET-683,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H23,leedr,2,Lights Down / Lights Up,LBORO-MET-688,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H23,leedr,3,Shower 1,LBORO-MET-684,drop,drop:no real battery product,,,,,,,,
+leedr_H23,leedr,4,Sockets 3,LBORO-MET-687,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H23,leedr,5,Mains 1,LBORO-MET-106,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H23,leedr,6,External Lights,LBORO-MET-689,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H23,leedr,7,Sockets 1,LBORO-MET-690,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H28,leedr,0,Shower 1,LBORO-MET-648,drop,drop:no real battery product,,,,,,,,
+leedr_H28,leedr,1,Garage / Shed,LBORO-MET-658,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H28,leedr,2,FridgeFreezer ,LBORO-MET-660,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H28,leedr,3,"Computing Equipment / Laptop(Front Room,Downstairs)",LBORO-SMART-351,keep,,PC2,R3.2,[0.0],2.0,26.0,2047,0.0582,612.1
+leedr_H28,leedr,4,Mains 1,LBORO-MET-092,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H28,leedr,5,"Tumble Drier(Garage/Shed,Downstairs)",LBORO-SMART-353,drop,drop:no real battery product,,,,,,,,
+leedr_H28,leedr,6,Solar PV,LBORO-MET-708,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H28,leedr,7,"Mobile Charger(Kitchen/utility room,Downstairs)",LBORO-SMART-357-died,keep,,TABLET,R3.2,[0.0],2.0,4.0,0,0.0119,460.0
+leedr_H28,leedr,8,"Washing Machine(Kitchen/utility room,Downstairs)",LBORO-SMART-345-melted,keep,,WASH,R3.2,[0.0],2.0,142.0,342,0.0368,461.0
+leedr_H28,leedr,9,"Electric Fan Heater(Kitchen/utility room,Downstairs)",LBORO-SMART-359,drop,drop:no real battery product,,,,,,,,
+leedr_H28,leedr,10,"Kettle(Kitchen/utility room,Downstairs)",LBORO-SMART-348,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+leedr_H28,leedr,11,Lights Down / Lights Up,LBORO-MET-656,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H28,leedr,12,Water Heater (solarH28),LBORO-MET-709,drop,drop:no real battery product,,,,,,,,
+leedr_H28,leedr,13,"Light (H28 Gas Cam)(Hall,make changes)",LBORO-SMART-279,exclude,"exclude:project equipment, not a household appliance (R3 label override)",,,,,,,,
+leedr_H28,leedr,14,"Toaster(Kitchen/utility room,Downstairs)",LBORO-SMART-346,drop,drop:no real battery product,,,,,,,,
+leedr_H28,leedr,15,"TV(Front Room,Downstairs)",LBORO-SMART-352,keep,,TV3A,R3.2,[0.0],2.0,31.0,0,0.2432,669.1
+leedr_H28,leedr,16,Freezer,LBORO-MET-662,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H28,leedr,17,"Hair Styling(Bedroom 1,Upstairs)",LBORO-SMART-350,keep,,HD,R3.2,[0.0],2.0,135.0,0,0.0026,649.1
+leedr_H28,leedr,18,"Computing Equipment / Laptop(Bedroom 2,Upstairs)",LBORO-SMART-349,keep,,PC2,R3.2,[0.0],2.0,28.0,0,0.1062,615.1
+leedr_H28,leedr,19,Small Power Down / Small Power Up / Sockets 2,LBORO-MET-647,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H28,leedr,20,Cooker,LBORO-MET-657,drop,drop:no real battery product,,,,,,,,
+leedr_H28,leedr,21,"Laptop(Back Room,Downstairs)",LBORO-SMART-355,keep,,PC2,R3.2,[0.0],2.0,26.0,562,0.0135,653.1
+leedr_H28,leedr,22,"TV(Bedroom 2,Upstairs) / Games Console(Bedroom 2,Upstairs)",LBORO-SMART-356,keep,,TV3A,R3.2,"[0.0, 1.0, 2.0, 4.0]",7.2,35.0,0,0.0635,279.0
+leedr_H28,leedr,23,"Iphone Charger / Mobile(Bedroom 3,Upstairs)",LBORO-SMART-354,keep,,TABLET,R3.2,[0.0],2.0,3.0,0,0.0339,658.1
+leedr_H28,leedr,24,"Washing Machine(Kitchen/utility room,Downstairs)",LBORO-SMART-366,keep,,WASH,R3.2,[0.0],2.0,141.0,0,0.0426,162.0
+leedr_H28,leedr,25,"Computing Equipment / Laptop (Bedroom 3,Upstairs)",LBORO-SMART-358,keep,,PC2,R3.2,[0.0],2.0,23.0,0,0.0558,647.1
+leedr_H28,leedr,26,"Mobile Charger(Kitchen/utility room,Downstairs)",LBORO-SMART-097,keep,,TABLET,R3.2,[0.0],2.0,3.0,0,0.0206,188.0
+leedr_H28,leedr,27,Sockets 1,LBORO-MET-644,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H28,leedr,28,"Microwave(Kitchen/utility room,Downstairs)",LBORO-SMART-347,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+leedr_H30,leedr,0,Cooker,LBORO-MET-110,drop,drop:no real battery product,,,,,,,,
+leedr_H30,leedr,1,"Lamp 1(Bedroom 2,Upstairs)",LBORO-SMART-216,keep,,TL,R3.2,[0.0],2.0,22.0,0,0.0551,791.1
+leedr_H30,leedr,2,"Mobile Charger(Bedroom 1,Upstairs)",LBORO-SMART-209,keep,,TABLET,R3.2,[0.0],2.0,3.0,0,0.0403,713.1
+leedr_H30,leedr,3,Kitchen Sockets,LBORO-MET-088,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H30,leedr,4,"TV(Front Room,Downstairs) / Cable Decoder(Front Room,Downstairs) / Games Console(Front Room,Downstairs) / Stereo(Front Room,Downstairs)",LBORO-SMART-208,keep,,TV3A,R3.2,[27.0],37.1,132.0,26830,0.1577,760.1
+leedr_H30,leedr,5,Lights Down,LBORO-MET-091-New-10th-May,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H30,leedr,6,Small Power Down,LBORO-MET-089-New-10th-May,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H30,leedr,7,"Underfloor Heating(Landing,Upstairs)",LBORO-SMART-207,drop,drop:no real battery product,,,,,,,,
+leedr_H30,leedr,8,"Extractor Fan(Landing,Upstairs)",LBORO-SMART-214,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H30,leedr,9,"Dishwasher(Kitchen/utility room,Downstairs)",LBORO-SMART-201,drop,drop:no real battery product,,,,,,,,
+leedr_H30,leedr,10,[unknown],LBORO-Return-to-alertme-MET-H30/090,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H30,leedr,11,Lights Down,LBORO-MET-091,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H30,leedr,12,"Lamp(Front Room,Downstairs)",LBORO-SMART-210,keep,,TL,R3.2,[0.0],2.0,42.0,0,0.0679,757.1
+leedr_H30,leedr,13,"Toaster(Kitchen/utility room,Downstairs)",LBORO-SMART-202,drop,drop:no real battery product,,,,,,,,
+leedr_H30,leedr,14,"Undercupboard Lights(Kitchen/utility room,Downstairs)",LBORO-SMART-094-went-faulty-removed-from-house,keep,,LT,R3.2,[0.0],2.0,39.0,0,0.0828,179.0
+leedr_H30,leedr,15,Microwave,LBORO-MET-107,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+leedr_H30,leedr,16,"Computing Equipment / Laptop(Front Room,Downstairs)",LBORO-SMART-154,keep,,PC2,R3.2,[0.0],2.0,15.0,585,0.0212,737.1
+leedr_H30,leedr,17,"Computing Equipment(Front Room,Downstairs)",LBORO-SMART-211,keep,,PC2,R3.2,[0.0],2.0,16.0,836,0.0476,695.1
+leedr_H30,leedr,18,"Kettle(Kitchen/utility room,Downstairs)",LBORO-SMART-203,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+leedr_H30,leedr,19,FridgeFreezer ,LBORO-MET-108,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H30,leedr,20,Small Power Down,LBORO-MET-089,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H30,leedr,21,Mains 1,LBORO-MET-087,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H30,leedr,22,"Mobile Charger(Front Room,Downstairs)",LBORO-SMART-212,keep,,TABLET,R3.2,[0.0],2.0,3.0,0,0.039,741.1
+leedr_H30,leedr,23,"Lamp(Bedroom 1,Upstairs)",LBORO-SMART-213,keep,,TL,R3.2,[0.0],2.0,115.0,0,0.1457,792.1
+leedr_H30,leedr,24,"Tumble Drier(Kitchen/utility room,Downstairs)",LBORO-SMART-206,drop,drop:no real battery product,,,,,,,,
+leedr_H30,leedr,25,Lights Up,LBORO-MET-090-New-2nd-May,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H30,leedr,26,"Washing Machine(Kitchen/utility room,Downstairs)",LBORO-SMART-205,keep,,WASH,R3.2,[0.0],2.0,100.0,0,0.0553,791.1
+leedr_H30,leedr,27,"Ipad Charger(Front Room,Downstairs)",LBORO-SMART-215,keep,,TABLET,R3.2,[0.0],2.0,4.0,0,0.0019,507.1
+leedr_H30,leedr,28,Small Power Up,LBORO-MET-092,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H30,leedr,29,Microwave,LBORO-MET-107-New-10th-May,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+leedr_H30,leedr,30,"Floor Standing Lamp(Front Room,Downstairs)",LBORO-SMART-200,keep,,TL,R3.2,[0.0],2.0,174.0,0,0.1887,758.1
+leedr_H33,leedr,0,Extension Lights,LBORO-MET-058,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H33,leedr,1,Boiler,LBORO-MET-053,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H33,leedr,2,"Hoover(Landing,Upstairs)",LBORO-SMART-118,keep,,VC,R3.2,[0.0],2.0,887.0,0,0.0005,276.0
+leedr_H33,leedr,3,Shower 1,LBORO-MET-113,drop,drop:no real battery product,,,,,,,,
+leedr_H33,leedr,4,Kitchen Sockets,LBORO-MET-054,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H33,leedr,5,"Computing Equipment / Laptop (Bedroom 3,Upstairs)",LBORO-SMART-135,keep,,PC2,R3.2,[0.0],2.0,37.0,0,0.0623,594.1
+leedr_H33,leedr,6,"Toaster(Kitchen/utility room,Downstairs)",LBORO-SMART-132,drop,drop:no real battery product,,,,,,,,
+leedr_H33,leedr,7,Freezer,LBORO-MET-050,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H33,leedr,8,"Kettle(Kitchen/utility room,Downstairs)",LBORO-SMART-127,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+leedr_H33,leedr,9,2nd Floor Sockets Extension,LBORO-MET-052,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H33,leedr,10,"Hair Styling(Bedroom 4,Upstairs)",LBORO-SMART-126,keep,,HD,R3.2,[0.0],2.0,1018.5,0,0.0015,631.1
+leedr_H33,leedr,11,"Food Processor(Kitchen/utility room,Downstairs)",LBORO-SMART-136,keep,,BLEND,R3.2,[0.0],2.0,10.0,246,0.0,563.1
+leedr_H33,leedr,12,Lights Down / Lights Up,LBORO-MET-056,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H33,leedr,13,"Microwave(Kitchen/utility room,Downstairs)",LBORO-SMART-131,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+leedr_H33,leedr,14,Small Power Down / Small Power Up,LBORO-MET-057,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H33,leedr,15,"Dishwasher(Kitchen/utility room,Downstairs)",LBORO-SMART-125,drop,drop:no real battery product,,,,,,,,
+leedr_H33,leedr,16,"Washing Machine(Kitchen/utility room,Downstairs)",LBORO-SMART-128,keep,,WASH,R3.2,[0.0],2.0,96.0,0,0.0544,633.1
+leedr_H33,leedr,17,FridgeFreezer ,LBORO-MET-051,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H33,leedr,18,"Iron(Kitchen/utility room,Downstairs)",LBORO-SMART-129,exclude,exclude:working power too low for IRON,,,,,,,,553.1
+leedr_H33,leedr,19,"DVD / HDD recorder / BlueRay(Front Room,Downstairs)",LBORO-SMART-120,exclude,exclude:recorder / decoder (set-top box rule),,,,,,,,
+leedr_H33,leedr,20,"Mobile Charger and Ipod Dock with clock radio (Bedroom 4,Upstairs)",LBORO-SMART-117,keep,,SPK_KITCHEN,R3.2,[0.0],2.0,4.0,0,0.0011,514.0
+leedr_H33,leedr,21,"Tumble Drier(Garage/Shed,Downstairs)",LBORO-SMART-119,drop,drop:no real battery product,,,,,,,,
+leedr_H33,leedr,22,"TV(Front Room,Downstairs)",LBORO-SMART-122,keep,,TV3A,R3.2,[0.0],2.0,112.0,0,0.2139,574.1
+leedr_H33,leedr,23,Mains 1,LBORO-MET-055,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H33,leedr,24,"Games Console(Front Room,Downstairs)",LBORO-SMART-124,keep,,SWITCH,R3.2,[0.0],2.0,5.0,29199,0.0514,437.1
+leedr_H37,leedr,0,Sockets 1,LBORO-MET-032,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H37,leedr,1,"Lamp(Bedroom 4,Upstairs) / Computing Equipment(Bedroom 4,Upstairs)",LBORO-SMART-070,keep,,TL,R3.2,[0.0],2.0,7.0,0,0.2343,662.1
+leedr_H37,leedr,2,Shower 1,LBORO-MET-025,drop,drop:no real battery product,,,,,,,,
+leedr_H37,leedr,3,"Lamp 1(Bedroom 2,Upstairs)",LBORO-SMART-075,keep,,TL,R3.2,[0.0],2.0,5.0,0,0.3836,678.1
+leedr_H37,leedr,4,"Dishwasher(Kitchen/utility room,Downstairs)",LBORO-SMART-059,drop,drop:no real battery product,,,,,,,,
+leedr_H37,leedr,5,"Tumble Drier(Garage/Shed,Downstairs)",LBORO-SMART-065,drop,drop:no real battery product,,,,,,,,
+leedr_H37,leedr,6,Water Heater (solarH28),LBORO-MET-030,drop,drop:no real battery product,,,,,,,,
+leedr_H37,leedr,7,"Slow cooker(Kitchen/utility room,Downstairs)",LBORO-SMART-061,drop,drop:no real battery product,,,,,,,,
+leedr_H37,leedr,8,"Microwave(Kitchen/utility room,Downstairs)",LBORO-SMART-058,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+leedr_H37,leedr,9,"Washing Machine(Kitchen/utility room,Downstairs)",LBORO-SMART-062,keep,,WASH,R3.2,[0.0],2.0,106.0,0,0.0517,689.1
+leedr_H37,leedr,10,"Kettle(Kitchen/utility room,Downstairs)",LBORO-SMART-057,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+leedr_H37,leedr,11,"Computing Equipment(Back Room,Downstairs)",LBORO-SMART-217,keep,,PC2,R3.2,[0.0],2.0,24.0,482,0.1589,321.0
+leedr_H37,leedr,12,"Bread Maker(Kitchen/utility room,Downstairs) / Computing Equipment and subwoofer(Hall,make changes)",LBORO-SMART-069,drop,drop:no real battery product,,,,,,,,
+leedr_H37,leedr,13,Sockets 4 ,LBORO-MET-026,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H37,leedr,14,Mains 1,LBORO-MET-103,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H37,leedr,15,"Iron(Kitchen/utility room,Downstairs)",LBORO-SMART-063,exclude,exclude:fewer than 60 observed days,,,,,,,,1.0
+leedr_H37,leedr,16,"Mobile Charger(Front Room,Downstairs)",LBORO-SMART-076,keep,,TABLET,R3.2,[0.0],2.0,3.0,0,0.006,230.0
+leedr_H37,leedr,17,"Lamp(Bedroom 3,Upstairs)",LBORO-SMART-74,keep,,TL,R3.2,[0.0],2.0,5.0,0,0.3998,734.1
+leedr_H37,leedr,18,Cooker,LBORO-MET-033,drop,drop:no real battery product,,,,,,,,
+leedr_H37,leedr,19,"Floor Standing Lamp(Front Room,Downstairs)",LBORO-SMART-064,keep,,TL,R3.2,[0.0],2.0,174.0,0,0.0138,661.0
+leedr_H37,leedr,20,Sockets 2,LBORO-MET-031,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H37,leedr,21,Extension Lights,LBORO-MET-028,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H37,leedr,22,"Vaccum Cleaner(Kitchen/utility room,Downstairs)",LBORO-SMART-071,exclude,exclude:fewer than 60 observed days,,,,,,,,9.0
+leedr_H37,leedr,23,Extension Lights first floor,LBORO-MET-112,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H37,leedr,24,"Hair Styling(Bedroom 1,Upstairs)",LBORO-SMART-066,keep,,HD,R3.2,[0.0],2.0,1160.0,0,0.0007,680.0
+leedr_H37,leedr,25,Extension Lights bathroom,LBORO-MET-111,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H37,leedr,26,"Radio / CD player(Kitchen/utility room,Downstairs)",LBORO-SMART-073,keep,,RADIO,R3.2,[0.0],2.0,8.0,0,0.3798,638.1
+leedr_H37,leedr,27,Sockets 3,LBORO-MET-029,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H37,leedr,28,"Freezer(Garage/Shed,Downstairs)",LBORO-SMART-067,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H37,leedr,29,"Mobile Charger(Bedroom 1,Upstairs)",LBORO-SMART-072,keep,,TABLET,R3.2,[0.0],2.0,4.0,0,0.0456,595.0
+leedr_H37,leedr,30,"TV(Front Room,Downstairs) / DVD / HDD recorder / BlueRay(Front Room,Downstairs) / Freeview(Front Room,Downstairs)",LBORO-SMART-068,keep,,TV3A,R3.2,[18.0],25.4,109.0,91769,0.2246,742.1
+leedr_H37,leedr,31,"Fridge(Kitchen/utility room,Downstairs)",LBORO-SMART-060,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H37,leedr,32,Lights Down,LBORO-MET-027,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H37,leedr,33,"Electric Powered Door(Garage/Shed,Downstairs)",LBORO-SMART-218,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H38,leedr,0,Small Power Up,LBORO-MET-676,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H38,leedr,1,Mains 1,LBORO-MET-668,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H38,leedr,2,Lights Up,LBORO-MET-680,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H38,leedr,3,Kitchen Sockets,LBORO-MET-678,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H38,leedr,4,"LEEDR Routing purposes only(Hall,make changes)",LBORO-SMART-147,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H38,leedr,5,Lights Down,LBORO-MET-681,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H39,leedr,0,"Hair Styling(Bedroom 1,Upstairs)",LBORO-SMART-285,keep,,HD,R3.2,[0.0],2.0,635.0,0,0.0005,663.1
+leedr_H39,leedr,1,"Washing Machine(Kitchen/utility room,Downstairs)",LBORO-SMART-270,keep,,WASH,R3.2,[0.0],2.0,111.0,0,0.0403,680.1
+leedr_H39,leedr,2,Sockets 1,LBORO-MET-611,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H39,leedr,3,Lights Down / Lights Up,LBORO-MET-607,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H39,leedr,4,"Ipod Dock / Laptop(Bedroom 2,Upstairs)",LBORO-SMART-293,exclude,exclude:in use > 50 % (always on),,R3.2,[0.0],2.0,7.0,0,0.656,659.1
+leedr_H39,leedr,5,"Microwave(Kitchen/utility room,Downstairs)",LBORO-SMART-271,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+leedr_H39,leedr,6,"Dehumidifier(Bedroom 4,Upstairs)",LBORO-SMART-287,drop,drop:no real battery product,,,,,,,,
+leedr_H39,leedr,7,"Clock Radio(Bedroom 3,Upstairs)",LBORO-SMART-294,keep,,RADIO,R3.2,[0.0],2.0,4.0,0,0.0069,741.1
+leedr_H39,leedr,8,"Kettle(Kitchen/utility room,Downstairs)",LBORO-SMART-272,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+leedr_H39,leedr,9,Shower 1,LBORO-MET-609,drop,drop:no real battery product,,,,,,,,
+leedr_H39,leedr,10,"Toaster(Kitchen/utility room,Downstairs)",LBORO-SMART-273,drop,drop:no real battery product,,,,,,,,
+leedr_H39,leedr,11,"TV(Front Room,Downstairs) / DVD / HDD recorder / BlueRay(Front Room,Downstairs) / Freeview(Front Room,Downstairs) / Games Console(Front Room,Downstairs)",LBORO-SMART-286,keep,,TV3A,R3.2,"[8.0, 8.5, 9.0]",13.7,128.0,11230,0.3925,755.1
+leedr_H39,leedr,12,Mains 1,LBORO-MET-604,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H39,leedr,13,Garage / Shed,LBORO-MET-610,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H39,leedr,14,"Electric Organ(Bedroom 4,Upstairs)",LBORO-SMART-288,keep,,KEYS,R3.2,[0.0],2.0,439.0,0,0.0046,160.0
+leedr_H39,leedr,15,"Computing Equipment / Laptop(Bedroom 2,Upstairs)",LBORO-SMART-291,keep,,PC2,R3.2,[0.0],2.0,36.0,0,0.0027,636.1
+leedr_H39,leedr,16,"Lamp 1(Bedroom 2,Upstairs)",LBORO-SMART-292,keep,,TL,R3.2,[0.0],2.0,8.0,0,0.4556,738.1
+leedr_H39,leedr,17,FridgeFreezer ,LBORO-MET-614,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H39,leedr,18,"Laptop(Back Room,Downstairs)",LBORO-SMART-284,keep,,PC2,R3.2,[0.0],2.0,14.0,1995,0.084,341.0
+leedr_H39,leedr,19,"Mobile Charger(Kitchen/utility room,Downstairs)",LBORO-SMART-283,keep,,TABLET,R3.2,[0.0],2.0,3.0,0,0.0217,675.1
+leedr_H39,leedr,20,Kitchen Sockets,LBORO-MET-606,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H39,leedr,21,Extension Lights,LBORO-MET-608,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H39,leedr,22,"Computing Equipment(Bedroom 4,Upstairs)",LBORO-SMART-295,keep,,PC2,R3.2,[0.0],2.0,16.0,0,0.3096,659.1
+leedr_H39,leedr,23,Freezer,LBORO-MET-612,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H39,leedr,24,Small Power Down / Small Power Up,LBORO-MET-605,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H39,leedr,25,"Dishwasher(Kitchen/utility room,Downstairs)",LBORO-SMART-269,drop,drop:no real battery product,,,,,,,,
+leedr_H40,leedr,0,Office Sockets,LBORO-MET-629,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H40,leedr,1,"Dishwasher(Kitchen/utility room,Downstairs)",LBORO-SMART-255,drop,drop:no real battery product,,,,,,,,
+leedr_H40,leedr,2,Fridge 2,LBORO-MET-638,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H40,leedr,3,"Laptop(Back Room,Downstairs)",LBORO-SMART-282,keep,,PC2,R3.2,[0.0],2.0,31.0,252,0.0164,596.0
+leedr_H40,leedr,4,"Ipod Dock / Laptop(Bedroom 2,Upstairs)",LBORO-SMART-317,exclude,exclude:power inconsistent with label (SPK_KITCHEN),,,,,,,,612.1
+leedr_H40,leedr,5,H40 Lights Down 2 ,LBORO-MET-631,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H40,leedr,6,Lights Down,LBORO-MET-630,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H40,leedr,7,"Computing Equipment(StudyOfficePlayroom,Downstairs)",LBORO-SMART-289,keep,,PC2,R3.2,[17.0],24.1,125.0,319,0.2836,673.1
+leedr_H40,leedr,8,Cooker,LBORO-MET-634,drop,drop:no real battery product,,,,,,,,
+leedr_H40,leedr,9,Freezer,LBORO-MET-635,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H40,leedr,10,"Microwave(Kitchen/utility room,Downstairs)",LBORO-SMART-277,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+leedr_H40,leedr,11,Fridge 1,LBORO-MET-637,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H40,leedr,12,"Toaster(Kitchen/utility room,Downstairs)",LBORO-SMART-274,drop,drop:no real battery product,,,,,,,,
+leedr_H40,leedr,13,"Oil Radiator(Bedroom 3,Upstairs)",LBORO-SMART-320,drop,drop:no real battery product,,,,,,,,
+leedr_H40,leedr,14,"Mobile Charger(Kitchen/utility room,Downstairs)",LBORO-SMART-276,exclude,exclude:power inconsistent with label (TABLET),,,,,,,,670.1
+leedr_H40,leedr,15,Shower 1 / Water Heater (solarH28),LBORO-MET-633,drop,drop:no real battery product,,,,,,,,
+leedr_H40,leedr,16,Sockets 1,LBORO-MET-627,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H40,leedr,17,Sockets 2,LBORO-MET-628,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H40,leedr,18,"Washing Machine(Kitchen/utility room,Downstairs)",LBORO-SMART-280,keep,,WASH,R3.2,[0.0],2.0,90.0,0,0.1125,671.1
+leedr_H40,leedr,19,"Office Digital Media(StudyOfficePlayroom,Downstairs)",LBORO-SMART-290,keep,,PC2,R3.2,[7.0],11.1,47.0,766,0.2697,673.1
+leedr_H40,leedr,20,"Computing Equipment / Laptop(Bedroom 2,Upstairs)",LBORO-SMART-318,keep,,PC2,R3.2,[0.0],2.0,14.0,0,0.0136,596.1
+leedr_H40,leedr,21,"TV(Front Room,Downstairs) / DVD / HDD recorder / BlueRay(Front Room,Downstairs) / Cable Decoder(Front Room,Downstairs) / Games Console(Front Room,Downstairs)",LBORO-SMART-281,keep,,TV3A,R3.2,[45.0],60.5,217.0,58350,0.189,672.1
+leedr_H40,leedr,22,Lights Up,LBORO-MET-632,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H40,leedr,23,Mains 1,LBORO-MET-626,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H40,leedr,24,"Kettle(Kitchen/utility room,Downstairs)",LBORO-SMART-275,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+leedr_H40,leedr,25,"Tumble Drier(Garage/Shed,Downstairs)",LBORO-SMART-316,drop,drop:no real battery product,,,,,,,,
+leedr_H40,leedr,26,"Hair Styling(Bedroom 1,Upstairs)",LBORO-SMART-230,keep,,HD,R3.2,[0.0],2.0,149.0,0,0.007,664.1
+leedr_H40,leedr,27,"Computing Equipment / Laptop (Bedroom 3,Upstairs)",LBORO-SMART-319,keep,,PC2,R3.2,"[0.0, 1.0]",3.3,5.0,0,0.0317,512.0
+leedr_H41,leedr,0,[unknown],LBORO-MET-702,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H41,leedr,1,[unknown],LBORO-SMART-366,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H41,leedr,2,[unknown],LBORO-SMART-367,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H41,leedr,3,"For Our routing only(Back Room,Downstairs)",LBORO-SMART-148,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H41,leedr,4,[unknown],LBORO-MET-699,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H41,leedr,5,Shower 1,LBORO-MET-697,drop,drop:no real battery product,,,,,,,,
+leedr_H41,leedr,6,Mains 1,LBORO-MET-086,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H41,leedr,7,[unknown],LBORO-MET-703,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H41,leedr,8,[unknown],LBORO-MET-701,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H41,leedr,9,[unknown],LBORO-MET-693,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H41,leedr,10,[unknown],LBORO-SMART-141,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H41,leedr,11,[unknown],LBORO-SMART-146,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H41,leedr,12,Lights 2,LBORO-MET-700,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H41,leedr,13,Lights,LBORO-MET-698,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H42,leedr,0,"Ipad Charger / Laptop(Kitchen/utility room,Downstairs)",LBORO-SMART-338,keep,,TABLET,R3.2,[0.0],2.0,12.0,0,0.0066,616.1
+leedr_H42,leedr,1,Mains 1,LBORO-MET-643,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H42,leedr,2,"Dishwasher(Kitchen/utility room,Downstairs)",LBORO-SMART-333,drop,drop:no real battery product,,,,,,,,
+leedr_H42,leedr,3,Kitchen Sockets,LBORO-MET-649,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H42,leedr,4,"Organ(Back Room,Downstairs)",LBORO-SMART-344,exclude,exclude:power inconsistent with label (KEYS),,,,,,,,304.0
+leedr_H42,leedr,5,Microwave,LBORO-MET-659,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+leedr_H42,leedr,6,"Washing Machine(Kitchen/utility room,Downstairs)",LBORO-SMART-337,keep,,WASH,R3.2,[0.0],2.0,197.0,0,0.0248,669.1
+leedr_H42,leedr,7,"Computing Equipment(Bedroom 5,Upstairs)",LBORO-SMART-339,keep,,PC2,R3.2,[0.0],2.0,20.0,0,0.0089,223.0
+leedr_H42,leedr,8,Circuit 2,LBORO-MET-646,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H42,leedr,9,"Electric Heater(Bedroom 5,Upstairs)",LBORO-SMART-340,drop,drop:no real battery product,,,,,,,,
+leedr_H42,leedr,10,"Toaster(Kitchen/utility room,Downstairs)",LBORO-SMART-332,drop,drop:no real battery product,,,,,,,,
+leedr_H42,leedr,11,Extension Lights,LBORO-MET-653,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H42,leedr,12,"Mobile Charger(Kitchen/utility room,Downstairs)",LBORO-SMART-336,exclude,exclude:power inconsistent with label (TABLET),,,,,,,,662.1
+leedr_H42,leedr,13,"Hair Styling(Bedroom 1,Upstairs)",LBORO-SMART-342,keep,,HD,R3.2,[0.0],2.0,781.5,0,0.0022,677.1
+leedr_H42,leedr,14,"TV(Bedroom 1,Upstairs) / DVD(Bedroom 1,Upstairs)",LBORO-SMART-343,keep,,TV3A,R3.2,[0.0],2.0,6.0,325714,0.0691,678.1
+leedr_H42,leedr,15,"Kettle(Kitchen/utility room,Downstairs)",LBORO-SMART-335,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+leedr_H42,leedr,16,FridgeFreezer ,LBORO-MET-645,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H42,leedr,17,Circuit 3,LBORO-MET-651,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H42,leedr,18,"TV(Front Room,Downstairs) / DVD / HDD recorder / BlueRay(Front Room,Downstairs) / Games Console(Front Room,Downstairs) / Stereo(Front Room,Downstairs)",LBORO-SMART-341,keep,,TV3A,R3.2,[25.0],34.5,135.0,16791,0.1565,679.1
+leedr_H42,leedr,19,Cooker,LBORO-MET-654,drop,drop:no real battery product,,,,,,,,
+leedr_H42,leedr,20,Circuit 4,LBORO-MET-652,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H42,leedr,21,Circuit 1 / Not Known,LBORO-MET-661,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H43,leedr,0,"Dehumidifier(Outside Studio,make changes)",LBORO-SMART-242,drop,drop:no real battery product,,,,,,,,
+leedr_H43,leedr,1,RCD Circuit,LBORO-MET-102,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H43,leedr,2,"Hair Styling(Bedroom 1,Upstairs)",LBORO-SMART-264,keep,,HI,R3.2,[0.0],2.0,54.0,0,0.0188,749.1
+leedr_H43,leedr,3,"Microwave(Kitchen/utility room,Downstairs)",LBORO-SMART-247,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+leedr_H43,leedr,4,"Dishwasher(Kitchen/utility room,Downstairs)",LBORO-SMART-245,drop,drop:no real battery product,,,,,,,,
+leedr_H43,leedr,5,"TV(Front Room,Downstairs) / Cable Decoder(Front Room,Downstairs) / Games Console(Front Room,Downstairs)",LBORO-SMART-261,keep,,TV3A,R3.2,[20.5],28.65,139.0,23584,0.279,808.1
+leedr_H43,leedr,6,"Food Processor(Kitchen/utility room,Downstairs)",LBORO-SMART-252,keep,,BLEND,R3.2,[0.0],2.0,88.0,0,0.0005,746.1
+leedr_H43,leedr,7,"Ipad Charger(Back Room,Downstairs)",LBORO-SMART-260,keep,,TABLET,R3.2,[0.0],2.0,10.0,0,0.0866,654.0
+leedr_H43,leedr,8,Lights Down,LBORO-MET-096,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H43,leedr,9,Lights,LBORO-MET-100,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H43,leedr,10,"Kettle(Kitchen/utility room,Downstairs)",LBORO-SMART-248,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+leedr_H43,leedr,11,"Hand Blender(Kitchen/utility room,Downstairs)",LBORO-SMART-251,keep,,BLEND,R3.2,[0.0],2.0,10.0,247,0.0001,790.1
+leedr_H43,leedr,12,"Tumble Drier(Kitchen/utility room,Downstairs)",LBORO-SMART-246,drop,drop:no real battery product,,,,,,,,
+leedr_H43,leedr,13,"Cooling fan(Bedroom 3,Upstairs)",LBORO-SMART-266,keep,,FAN,R3.2,[0.0],2.0,33.0,0,0.0982,62.0
+leedr_H43,leedr,14,Cooker,LBORO-MET-101,drop,drop:no real battery product,,,,,,,,
+leedr_H43,leedr,15,"TV(Outside Studio,make changes)",LBORO-SMART-254,keep,,TV3A,R3.2,[0.0],2.0,44.0,0,0.0382,283.0
+leedr_H43,leedr,16,"Lamp(Back Room,Downstairs)",LBORO-SMART-259,keep,,TL,R3.2,[0.0],2.0,76.0,0,0.1255,769.1
+leedr_H43,leedr,17,"Washing Machine(Kitchen/utility room,Downstairs)",LBORO-SMART-244,keep,,WASH,R3.2,[0.0],2.0,95.0,0,0.0684,748.1
+leedr_H43,leedr,18,"Computing Equipment / Laptop(Front Room,Downstairs)",LBORO-SMART-253,keep,,PC2,R3.2,"[0.0, 2.0, 6.0]",9.8,11.0,134731,0.0369,730.1
+leedr_H43,leedr,19,"Toaster(Kitchen/utility room,Downstairs)",LBORO-SMART-249,drop,drop:no real battery product,,,,,,,,
+leedr_H43,leedr,20,Mains 1,LBORO-MET-097,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H43,leedr,21,"Computing Equipment(StudyOfficePlayroom,Downstairs)",LBORO-SMART-262,keep,,PC2,R3.2,[20.0],28.0,76.0,0,0.4674,757.1
+leedr_H43,leedr,22,"Hair Styling(Bedroom 2,Upstairs)",LBORO-SMART-265,keep,,HD,R3.2,[0.0],2.0,1338.0,0,0.0019,784.1
+leedr_H43,leedr,23,"Power Tools(Garage/Shed,Downstairs)",LBORO-SMART-268,keep,,DRILL,R3.2,[0.0],2.0,11.0,1569,0.0008,419.0
+leedr_H43,leedr,24,"Floor Standing Lamp(Front Room,Downstairs)",LBORO-SMART-257,keep,,TL,R3.2,[0.0],2.0,91.0,0,0.0174,556.1
+leedr_H43,leedr,25,"TV(Bedroom 1,Upstairs)",LBORO-SMART-263,keep,,TV3A,R3.2,[0.0],2.0,74.0,0,0.0151,692.1
+leedr_H43,leedr,26,"Television(Kitchen/utility room,Downstairs) / Gaming(Kitchen/utility room,Downstairs) / Cable Decoder(Kitchen/utility room,Downstairs)",LBORO-SMART-256,keep,,TV3A,R3.2,"[0.0, 4.0]",7.2,105.0,70746,0.3694,739.0
+leedr_H43,leedr,27,"TV(Back Room,Downstairs) / Cable Decoder(Back Room,Downstairs) / Games Console(Back Room,Downstairs) / Stereo(Back Room,Downstairs)",LBORO-SMART-258,keep,,TV3A,R3.2,"[16.0, 18.0, 18.5, 19.0, 19.5, 20.0, 21.0]",29.3,264.0,35765,0.2653,757.1
+leedr_H43,leedr,28,"Mobile Charger(Kitchen/utility room,Downstairs) / Ipad Charger / Laptop(Kitchen/utility room,Downstairs) / Computing Equipment / Laptop(Bedroom 2,Upstairs)",LBORO-SMART-267,keep,,TABLET,R3.2,"[0.0, 5.0, 8.0, 9.0, 10.0]",15.0,321.0,0,0.0459,661.1
+leedr_H43,leedr,29,Lights Up,LBORO-MET-098,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H43,leedr,30,Freezer and FridgeFreezer ,LBORO-MET-602,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H43,leedr,31,"Oil Heater(Outside Studio,make changes)",LBORO-SMART-243,drop,drop:no real battery product,,,,,,,,
+leedr_H43,leedr,32,Sockets 1,LBORO-MET-099,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H43,leedr,33,"Coffee maker(Kitchen/utility room,Downstairs)",LBORO-SMART-250,keep,,CM,R3.2,[0.0],2.0,59.0,0,0.0036,745.1
+leedr_H45,leedr,0,"Kettle(Kitchen/utility room,Downstairs)",LBORO-SMART-364,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+leedr_H45,leedr,1,Lights,LBORO-MET-669,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H45,leedr,2,"Mobile Charger(Bedroom 4,Upstairs)",LBORO-SMART-374,keep,,TABLET,R3.2,[0.0],2.0,5.0,0,0.0132,644.1
+leedr_H45,leedr,3,Cooker,LBORO-MET-673,drop,drop:no real battery product,,,,,,,,
+leedr_H45,leedr,4,Extension Lights and Sockets combined,LBORO-MET-666,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H45,leedr,5,"Washing Machine(Kitchen/utility room,Downstairs)",LBORO-SMART-361,keep,,WASH,R3.2,[0.0],2.0,72.0,0,0.078,621.1
+leedr_H45,leedr,6,"Hair Styling(Landing,Upstairs)",LBORO-SMART-376,keep,,HD,R3.2,[0.0],2.0,1374.5,0,0.0014,620.1
+leedr_H45,leedr,7,"TV(Bedroom 3,Upstairs) / Playstation 2(Bedroom 3,Upstairs)",LBORO-SMART-142,keep,,TV3A,R3.2,[0.0],2.0,87.0,16576,0.1039,501.0
+leedr_H45,leedr,8,Shower 1,LBORO-MET-672,drop,drop:no real battery product,,,,,,,,
+leedr_H45,leedr,9,"Mobile Charger(Kitchen/utility room,Downstairs)",LBORO-SMART-369,keep,,TABLET,R3.2,[0.0],2.0,4.0,0,0.034,639.1
+leedr_H45,leedr,10,Kitchen Sockets,LBORO-MET-665,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H45,leedr,11,Shower 2 (Loft in H45),LBORO-MET-667,drop,drop:no real battery product,,,,,,,,
+leedr_H45,leedr,12,FridgeFreezer ,LBORO-MET-675,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H45,leedr,13,"Iphone Charger / Mobile(Bedroom 3,Upstairs)",LBORO-SMART-371,keep,,TABLET,R3.2,[0.0],2.0,3.0,0,0.01,222.0
+leedr_H45,leedr,14,Mains 1,LBORO-MET-663,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H45,leedr,15,"Dishwasher(Kitchen/utility room,Downstairs)",LBORO-SMART-363,drop,drop:no real battery product,,,,,,,,
+leedr_H45,leedr,16,"Computing Equipment / Laptop(Front Room,Downstairs)",LBORO-SMART-378,keep,,PC2,R3.2,[0.0],2.0,15.0,0,0.087,563.1
+leedr_H45,leedr,17,Small Power Down / Small Power Up,LBORO-MET-664,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H45,leedr,18,"TV(Back Room,Downstairs) / Games Console(Back Room,Downstairs)",LBORO-SMART-368,keep,,TV3A,R3.2,"[2.0, 4.0]",7.2,188.0,18191,0.1845,590.1
+leedr_H45,leedr,19,"Laptop(Back Room,Downstairs)",LBORO-SMART-365,keep,,PC2,R3.2,[5.0],8.5,26.0,1315,0.209,625.1
+leedr_H45,leedr,20,"Toaster(Kitchen/utility room,Downstairs)",LBORO-SMART-362,drop,drop:no real battery product,,,,,,,,
+leedr_H45,leedr,21,Lights 2,LBORO-MET-671,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H46,leedr,0,"TV(Front Room,Downstairs)",LBORO-SMART-305,keep,,TV3A,R3.2,[0.0],2.0,56.0,0,0.4086,678.1
+leedr_H46,leedr,1,"TV(Bedroom 2,Upstairs) / Games Console(Bedroom 2,Upstairs)",LBORO-SMART-310,keep,,TV3A,R3.2,[0.0],2.0,73.0,1972,0.0907,699.1
+leedr_H46,leedr,2,"TV(Bedroom 1,Upstairs)",LBORO-SMART-306,keep,,TV3A,R3.2,"[0.0, 2.0]",4.6,73.0,0,0.0983,704.1
+leedr_H46,leedr,3,Cooker,LBORO-MET-617,drop,drop:no real battery product,,,,,,,,
+leedr_H46,leedr,4,"Microwave(Kitchen/utility room,Downstairs)",LBORO-SMART-314,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+leedr_H46,leedr,5,"Fan(Bedroom 2,Upstairs)",LBORO-SMART-307,keep,,FAN,R3.2,[0.0],2.0,37.0,0,0.0455,149.0
+leedr_H46,leedr,6,Extension Lights,LBORO-MET-619,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H46,leedr,7,"Computing Equipment(Front Room,Downstairs)",LBORO-SMART-302,keep,,PC2,R3.2,[0.0],2.0,10.0,0,0.0475,680.1
+leedr_H46,leedr,8,"Tumble Drier(Kitchen/utility room,Downstairs)",LBORO-SMART-301,drop,drop:no real battery product,,,,,,,,
+leedr_H46,leedr,9,"Cooling fan(Bedroom 3,Upstairs)",LBORO-SMART-312,keep,,FAN,R3.2,[0.0],2.0,25.0,0,0.1685,179.0
+leedr_H46,leedr,10,"Hair Styling(Bedroom 1,Upstairs)",LBORO-SMART-308,keep,,HI,R3.2,[0.0],2.0,86.0,0,0.0153,694.1
+leedr_H46,leedr,11,"Dishwasher(Kitchen/utility room,Downstairs)",LBORO-SMART-296,drop,drop:no real battery product,,,,,,,,
+leedr_H46,leedr,12,"Washing Machine(Kitchen/utility room,Downstairs)",LBORO-SMART-300,keep,,WASH,R3.2,[0.0],2.0,97.0,0,0.1043,699.1
+leedr_H46,leedr,13,"Fan(Bedroom 4,Upstairs)",LBORO-SMART-315,exclude,exclude:no use detected,,R3.2,[0.0],2.0,,0,0.0,179.0
+leedr_H46,leedr,14,"DVD / HDD recorder / BlueRay(Front Room,Downstairs) / Cable Decoder(Front Room,Downstairs) / Games Console(Front Room,Downstairs)",LBORO-SMART-304,exclude,exclude:recorder / decoder (set-top box rule),,,,,,,,
+leedr_H46,leedr,15,Small Power Down / Small Power Up,LBORO-MET-616,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H46,leedr,16,"Kettle(Kitchen/utility room,Downstairs) / Coffee maker(Kitchen/utility room,Downstairs)",LBORO-SMART-297,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+leedr_H46,leedr,17,"Mobile Charger(Bedroom 1,Upstairs)",LBORO-SMART-309,keep,,TABLET,R3.2,[0.0],2.0,5.0,0,0.0671,698.1
+leedr_H46,leedr,18,"TV(Back Room,Downstairs) / Freeview(Back Room,Downstairs)",LBORO-SMART-303,keep,,TV3A,R3.2,[15.0],21.5,46.0,0,0.0444,676.1
+leedr_H46,leedr,19,Lights,LBORO-MET-618,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+leedr_H46,leedr,20,"TV(Bedroom 3,Upstairs)",LBORO-SMART-311,keep,,TV3A,R3.2,[0.0],2.0,33.0,0,0.0097,684.1
+leedr_H46,leedr,21,Mains 1,LBORO-MET-024,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H46,leedr,22,FridgeFreezer ,LBORO-MET-615,exclude,exclude:always on / infrastructure,,,,,,,,
+leedr_H46,leedr,23,"TV / DVD / VCR / CD(Bedroom 5,Downstairs)",LBORO-SMART-313,keep,,TV3A,R3.2,[8.0],12.4,21.0,0,0.4092,691.1
+leedr_H46,leedr,24,"Toaster(Kitchen/utility room,Downstairs)",LBORO-SMART-298,drop,drop:no real battery product,,,,,,,,
+leedr_H46,leedr,25,"Ipad Charger / Laptop(Kitchen/utility room,Downstairs)",LBORO-SMART-299,keep,,TABLET,R3.2,[0.0],2.0,4.0,0,0.0436,664.1
+refitb2_house1,refitb2,0,Fridge,,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house1,refitb2,1,Freezer(1),,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house1,refitb2,2,Freezer(2),,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house1,refitb2,3,Washer Dryer,,drop,drop:no real battery product,,,,,,,,
+refitb2_house1,refitb2,4,Washing Machine,,keep,,WASH,R3.2,[0.0],2.0,114.4,0,0.0222,558.1
+refitb2_house1,refitb2,5,Dishwasher,,drop,drop:no real battery product,,,,,,,,
+refitb2_house1,refitb2,6,Computer,,keep,,PC2,R3.2,"[0.0, 0.9, 1.0]",3.3,27.0,0,0.0831,558.1
+refitb2_house1,refitb2,7,Television Site,,keep,,TV3A,R3.2,[0.0],2.0,31.4,442,0.1861,558.1
+refitb2_house1,refitb2,8,Electric Heater,,drop,drop:no real battery product,,,,,,,,
+refitb2_house10,refitb2,0,Magimix(Blender),,keep,,BLEND,R3.2,[0.0] / [0.0],2.0 / 2.0,73.2 / 80.2,0 / 0,0.0104,521.2
+refitb2_house10,refitb2,1,Toaster,,drop,drop:no real battery product,,,,,,,,
+refitb2_house10,refitb2,2,Chest Freezer,,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house10,refitb2,3,Fridge-Freezer,,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house10,refitb2,4,Washing Machine,,keep,,WASH,R3.2,[0.0],2.0,109.4,2553,0.0942,521.2
+refitb2_house10,refitb2,5,Dishwasher,,drop,drop:no real battery product,,,,,,,,
+refitb2_house10,refitb2,6,Television Site,,keep,,TV3A,R3.2,[38.6],52.21,86.0,0,0.3235,521.2
+refitb2_house10,refitb2,7,Microwave,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+refitb2_house10,refitb2,8,K Mix,,keep,,MIXER,R3.2,[0.0],2.0,4.1,7425,0.0054,521.2
+refitb2_house11,refitb2,0,Fridge,,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house11,refitb2,1,Fridge-Freezer,,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house11,refitb2,2,Washing Machine,,keep,,WASH,R3.2,"[0.0, 1.8, 1.9, 2.0]",4.6,78.1,0,0.0169,349.2
+refitb2_house11,refitb2,3,Dishwasher,,drop,drop:no real battery product,,,,,,,,
+refitb2_house11,refitb2,4,Computer Site,,keep,,PC2,R3.2,[0.0],2.0,7.9,101926,0.0904,349.2
+refitb2_house11,refitb2,5,Microwave,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+refitb2_house11,refitb2,6,Kettle,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+refitb2_house11,refitb2,7,Router,,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house11,refitb2,8,Hi-Fi,,keep,,SPK_HIFI,R3.2,[0.0],2.0,19.8,0,0.174,349.2
+refitb2_house12,refitb2,0,Fridge-Freezer,,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house12,refitb2,1,???,,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+refitb2_house12,refitb2,2,???,,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+refitb2_house12,refitb2,3,Computer Site,,exclude,exclude:power inconsistent with label (PC2),,,,,,,,453.7
+refitb2_house12,refitb2,4,Microwave,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+refitb2_house12,refitb2,5,Kettle,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+refitb2_house12,refitb2,6,Toaster,,drop,drop:no real battery product,,,,,,,,
+refitb2_house12,refitb2,7,Television,,exclude,exclude:no use detected,,R3.2,[0.0],2.0,,0,0.0,453.7
+refitb2_house12,refitb2,8,???,,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+refitb2_house13,refitb2,0,Television Site,,keep,,TV3A,R3.2,[0.0],2.0,94.5,10845,0.0417,383.6
+refitb2_house13,refitb2,1,Freezer,,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house13,refitb2,2,Washing Machine,,keep,,WASH,R3.2,"[0.0, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9, 2.0] / [0.0, 1.2, 1.3, 1.4, 1.6, 1.7]",4.6 / 4.17,94.4 / 98.3,0 / 0,0.0553,383.6
+refitb2_house13,refitb2,3,Dishwasher,,drop,drop:no real battery product,,,,,,,,
+refitb2_house13,refitb2,4,???,,exclude,"exclude:circuit, not a single appliance",,,,,,,,
+refitb2_house13,refitb2,5,Network Site,,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house13,refitb2,6,Microwave,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+refitb2_house13,refitb2,7,Microwave,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+refitb2_house13,refitb2,8,Kettle,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+refitb2_house15,refitb2,0,Fridge-Freezer,,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house15,refitb2,1,Tumble Dryer,,drop,drop:no real battery product,,,,,,,,
+refitb2_house15,refitb2,2,Washing Machine,,keep,,WASH,R3.2,[0.0],2.0,121.0,0,0.034,489.8
+refitb2_house15,refitb2,3,Dishwasher,,drop,drop:no real battery product,,,,,,,,
+refitb2_house15,refitb2,4,Computer Site,,keep,,PC2,R3.2,[0.0],2.0,16.8,0,0.0463,489.8
+refitb2_house15,refitb2,5,Television Site,,keep,,TV3A,R3.2,[0.0],2.0,69.9,0,0.256,489.8
+refitb2_house15,refitb2,6,Microwave,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+refitb2_house15,refitb2,7,Hi-Fi,,exclude,exclude:power inconsistent with label (SPK_HIFI),,,,,,,,489.8
+refitb2_house15,refitb2,8,Toaster,,drop,drop:no real battery product,,,,,,,,
+refitb2_house16,refitb2,0,Fridge-Freezer(1),,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house16,refitb2,1,Fridge-Freezer(2),,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house16,refitb2,2,Electric Heater(1),,drop,drop:no real battery product,,,,,,,,
+refitb2_house16,refitb2,3,Electric Heater(2),,drop,drop:no real battery product,,,,,,,,
+refitb2_house16,refitb2,4,Washing Machine,,keep,,WASH,R3.2,"[0.0, 1.8, 1.9, 2.0]",4.6,65.0,0,0.0389,449.4
+refitb2_house16,refitb2,5,Dishwasher,,drop,drop:no real battery product,,,,,,,,
+refitb2_house16,refitb2,6,Computer Site,,keep,,PC2,R3.2,[5.7],9.37,37.1,1971,0.4588,449.4
+refitb2_house16,refitb2,7,Television Site,,keep,,TV3A,R3.2,"[0.0, 5.0, 5.1, 5.2, 5.3, 5.4, 5.5, 7.9, 8.0, 8.1, 8.8, 9.0, 9.2, 9.3, 9.4, 9.6, 9.7, 9.8, 9.9, 10.0, 10.1, 10.3, 10.6, 10.7, 10.8, 11.0, 11.6, 12.2, 12.3, 12.4, 13.0]",18.9,181.0,254,0.2578,449.4
+refitb2_house16,refitb2,8,Dehumidifier,,drop,drop:no real battery product,,,,,,,,
+refitb2_house17,refitb2,0,Freezer,,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house17,refitb2,1,Fridge-Freezer,,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house17,refitb2,2,Tumble Dryer,,drop,drop:no real battery product,,,,,,,,
+refitb2_house17,refitb2,3,Washing Machine,,keep,,WASH,R3.2,[0.0],2.0,92.4,0,0.0292,441.0
+refitb2_house17,refitb2,4,Computer Site,,keep,,PC2,R3.2,"[3.9, 4.0, 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7, 4.8, 4.9, 5.0, 5.2, 5.3, 5.4, 5.6, 5.7]",9.37,47.6,2739,0.3577,441.0
+refitb2_house17,refitb2,5,Television Site,,keep,,TV3A,R3.2,[11.0],16.3,18.9,0,0.4259,441.0
+refitb2_house17,refitb2,6,Microwave,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+refitb2_house17,refitb2,7,Kettle,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+refitb2_house17,refitb2,8,TV Site(Bedroom),,keep,,TV3A,R3.2,"[0.0, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0, 1.1, 2.0]",4.6,8.0,0,0.0252,441.0
+refitb2_house18,refitb2,0,Fridge(garage),,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house18,refitb2,1,Freezer(garage),,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house18,refitb2,2,Fridge-Freezer,,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house18,refitb2,3,Washer Dryer(garage),,drop,drop:no real battery product,,,,,,,,
+refitb2_house18,refitb2,4,Washing Machine,,keep,,WASH,R3.2,[0.0],2.0,101.7,0,0.0128,417.2
+refitb2_house18,refitb2,5,Dishwasher,,drop,drop:no real battery product,,,,,,,,
+refitb2_house18,refitb2,6,Desktop Computer,,keep,,PC2,R3.2,[19.1],26.83,106.1,0,0.0747,417.2
+refitb2_house18,refitb2,7,Television Site,,keep,,TV3A,R3.2,[19.0],26.7,87.7,3139,0.3446,417.2
+refitb2_house18,refitb2,8,Microwave,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+refitb2_house19,refitb2,0,Fridge Freezer,,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house19,refitb2,1,Washing Machine,,keep,,WASH,R3.2,"[0.0, 0.1, 0.2]",2.33,96.0,0,0.0398,440.1
+refitb2_house19,refitb2,2,Television Site,,keep,,TV3A,R3.2,[7.0],11.1,22.5,0,0.221,440.1
+refitb2_house19,refitb2,3,Microwave,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+refitb2_house19,refitb2,4,Kettle,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+refitb2_house19,refitb2,5,Toaster,,drop,drop:no real battery product,,,,,,,,
+refitb2_house19,refitb2,6,Bread-maker,,drop,drop:no real battery product,,,,,,,,
+refitb2_house19,refitb2,7,Games Console,,keep,,SWITCH,R3.2,[0.0],2.0,75.6,0,0.0376,440.1
+refitb2_house19,refitb2,8,Hi-Fi,,keep,,SPK_HIFI,R3.2,[0.0],2.0,31.0,0,0.0073,440.1
+refitb2_house2,refitb2,0,Fridge-Freezer,,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house2,refitb2,1,Washing Machine,,keep,,WASH,R3.2,[0.0],2.0,74.1,1919,0.0527,465.4
+refitb2_house2,refitb2,2,Dishwasher,,drop,drop:no real battery product,,,,,,,,
+refitb2_house2,refitb2,3,Television Site,,keep,,TV3A,R3.2,[0.0],2.0,44.1,0,0.0918,465.4
+refitb2_house2,refitb2,4,Microwave,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+refitb2_house2,refitb2,5,Toaster,,drop,drop:no real battery product,,,,,,,,
+refitb2_house2,refitb2,6,Hi-Fi,,keep,,SPK_HIFI,R3.2,[0.0],2.0,16.0,0,0.107,465.4
+refitb2_house2,refitb2,7,Kettle,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+refitb2_house2,refitb2,8,Overhead Fan,,keep,,FAN,R3.2,[0.0],2.0,39.4,0,0.0061,465.4
+refitb2_house20,refitb2,0,Fridge,,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house20,refitb2,1,Freezer,,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house20,refitb2,2,Tumble Dryer,,drop,drop:no real battery product,,,,,,,,
+refitb2_house20,refitb2,3,Washing Machine,,keep,,WASH,R3.2,[0.0],2.0,75.4,0,0.0281,432.9
+refitb2_house20,refitb2,4,Dishwasher,,drop,drop:no real battery product,,,,,,,,
+refitb2_house20,refitb2,5,Computer Site,,keep,,PC2,R3.2,[0.0],2.0,85.3,7996,0.0766,432.9
+refitb2_house20,refitb2,6,Television Site,,keep,,TV3A,R3.2,"[4.0, 4.1, 4.2, 4.3]",7.57,21.4,66818,0.2266,432.9
+refitb2_house20,refitb2,7,Microwave,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+refitb2_house20,refitb2,8,Kettle,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+refitb2_house21,refitb2,0,Fridge-Freezer,,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house21,refitb2,1,Tumble Dryer,,drop,drop:no real battery product,,,,,,,,
+refitb2_house21,refitb2,2,Washing Machine,,keep,,WASH,R3.2,[0.0],2.0,71.4,0,0.0338,443.9
+refitb2_house21,refitb2,3,Dishwasher,,drop,drop:no real battery product,,,,,,,,
+refitb2_house21,refitb2,4,Food Mixer,,keep,,MIXER,R3.2,[0.0],2.0,37.9,0,0.0013,443.9
+refitb2_house21,refitb2,5,Television,,keep,,TV3A,R3.2,[0.0],2.0,31.9,1434,0.197,443.9
+refitb2_house21,refitb2,6,Kettle,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+refitb2_house21,refitb2,7,Vivarium,,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house21,refitb2,8,Pond Pump,,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house3,refitb2,0,Toaster,,drop,drop:no real battery product,,,,,,,,
+refitb2_house3,refitb2,1,Fridge-Freezer,,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house3,refitb2,2,Freezer,,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house3,refitb2,3,Tumble Dryer,,drop,drop:no real battery product,,,,,,,,
+refitb2_house3,refitb2,4,Dishwasher,,drop,drop:no real battery product,,,,,,,,
+refitb2_house3,refitb2,5,Washing Machine,,keep,,WASH,R3.2,[0.0],2.0,116.0,0,0.0606,544.7
+refitb2_house3,refitb2,6,Television Site,,keep,,TV3A,R3.2,[0.0],2.0,143.8,4694,0.3392,544.7
+refitb2_house3,refitb2,7,Microwave,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+refitb2_house3,refitb2,8,Kettle,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+refitb2_house4,refitb2,0,Fridge,,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house4,refitb2,1,Freezer,,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house4,refitb2,2,Fridge-Freezer,,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house4,refitb2,3,Washing Machine(1),,keep,,WASH,R3.2,"[0.0, 3.6, 3.7, 3.8, 3.9, 4.1, 4.2, 4.3]",7.59,170.6,0,0.0041,547.2
+refitb2_house4,refitb2,4,Washing Machine(2),,keep,,WASH,R3.2,[0.0],2.0,105.2,0,0.0164,547.2
+refitb2_house4,refitb2,5,Desktop Computer,,keep,,PC2,R3.2,[9.0],13.7,80.5,2040,0.0721,547.2
+refitb2_house4,refitb2,6,Television Site,,keep,,TV3A,R3.2,[0.0] / [0.0],2.0 / 2.0,77.0 / 23.7,3251 / 778,0.4003,547.2
+refitb2_house4,refitb2,7,Microwave,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+refitb2_house4,refitb2,8,Kettle,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+refitb2_house5,refitb2,0,Fridge-Freezer,,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house5,refitb2,1,Tumble Dryer,,drop,drop:no real battery product,,,,,,,,
+refitb2_house5,refitb2,2,Washing Machine,,keep,,WASH,R3.2,"[0.0, 3.0, 3.1, 3.2]",6.16,101.0,3419,0.0669,587.7
+refitb2_house5,refitb2,3,Dishwasher,,drop,drop:no real battery product,,,,,,,,
+refitb2_house5,refitb2,4,Desktop Computer,,keep,,PC2,R3.2,"[9.0] / [1.0, 1.1, 2.0]",13.7 / 4.6,90.0 / 15.4,0 / 0,0.3872,587.7
+refitb2_house5,refitb2,5,Television Site,,keep,,TV3A,R3.2,[0.0],2.0,79.1,0,0.205,587.7
+refitb2_house5,refitb2,6,Microwave,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+refitb2_house5,refitb2,7,Kettle,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+refitb2_house5,refitb2,8,Toaster,,drop,drop:no real battery product,,,,,,,,
+refitb2_house6,refitb2,0,Freezer,,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house6,refitb2,1,Washing Machine,,keep,,WASH,R3.2,[0.0],2.0,104.6,0,0.0195,489.4
+refitb2_house6,refitb2,2,Dishwasher,,drop,drop:no real battery product,,,,,,,,
+refitb2_house6,refitb2,3,MJY Computer,,keep,,PC2,R3.2,"[7.0, 7.1, 7.2, 7.3, 7.4, 7.5, 7.6]",11.88,142.0,173097,0.3741,489.4
+refitb2_house6,refitb2,4,TV/Satellite,,keep,,TV3A,R3.2,[14.0],20.2,126.2,2939,0.2517,489.4
+refitb2_house6,refitb2,5,Microwave,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+refitb2_house6,refitb2,6,Kettle,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+refitb2_house6,refitb2,7,Toaster,,drop,drop:no real battery product,,,,,,,,
+refitb2_house6,refitb2,8,PGM Computer,,keep,,PC2,R3.2,[7.0],11.1,78.2,1442,0.1149,489.4
+refitb2_house7,refitb2,0,Fridge,,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house7,refitb2,1,Freezer(1),,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house7,refitb2,2,Freezer(2),,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house7,refitb2,3,Tumble Dryer,,drop,drop:no real battery product,,,,,,,,
+refitb2_house7,refitb2,4,Washing Machine,,keep,,WASH,R3.2,"[0.0, 0.3, 0.4, 0.5, 0.6, 0.7]",2.87,105.7,0,0.0871,536.1
+refitb2_house7,refitb2,5,Dishwasher,,drop,drop:no real battery product,,,,,,,,
+refitb2_house7,refitb2,6,Television Site,,keep,,TV3A,R3.2,[0.0],2.0,43.2,16201,0.2882,536.1
+refitb2_house7,refitb2,7,Toaster,,drop,drop:no real battery product,,,,,,,,
+refitb2_house7,refitb2,8,Kettle,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+refitb2_house8,refitb2,0,Fridge,,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house8,refitb2,1,Freezer,,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house8,refitb2,2,Washer Dryer,,drop,drop:no real battery product,,,,,,,,
+refitb2_house8,refitb2,3,Washing Machine,,keep,,WASH,R3.2,"[0.0, 1.2, 1.3, 1.6, 1.8, 1.9, 2.0]",4.6,173.2,0,0.0345,498.1
+refitb2_house8,refitb2,4,Toaster,,drop,drop:no real battery product,,,,,,,,
+refitb2_house8,refitb2,5,Computer,,keep,,PC2,R3.2,[16.8],23.79,89.8,968,0.0362,498.1
+refitb2_house8,refitb2,6,Television Site,,keep,,TV3A,R3.2,"[5.0, 5.1, 5.2, 5.3, 5.7, 5.9, 6.0, 6.1]",9.94,132.7,20647,0.188,498.1
+refitb2_house8,refitb2,7,Microwave,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+refitb2_house8,refitb2,8,Kettle,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+refitb2_house9,refitb2,0,Fridge-Freezer,,exclude,exclude:always on / infrastructure,,,,,,,,
+refitb2_house9,refitb2,1,Washer Dryer,,drop,drop:no real battery product,,,,,,,,
+refitb2_house9,refitb2,2,Washing Machine,,keep,,WASH,R3.2,"[0.0, 1.0, 1.2]",3.52,120.5,262,0.0279,480.7
+refitb2_house9,refitb2,3,Dishwasher,,drop,drop:no real battery product,,,,,,,,
+refitb2_house9,refitb2,4,Television Site,,keep,,TV3A,R3.2,[11.4],16.79,104.9,0,0.188,480.7
+refitb2_house9,refitb2,5,Microwave,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+refitb2_house9,refitb2,6,Kettle,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+refitb2_house9,refitb2,7,Hi-Fi,,keep,,SPK_HIFI,R3.2,[5.0],8.5,11.0,0,0.2577,480.7
+refitb2_house9,refitb2,8,Electric Heater,,drop,drop:no real battery product,,,,,,,,
+ukdale_1,ukdale,0,laptop,,exclude,exclude:in use > 50 % (always on),,R3.2,[4.5],7.89,20.0,0,0.6963,192.4
+ukdale_1,ukdale,1,washing_machine,,keep,,WASH,R3.2,[0.0],2.0,172.1,0,0.0573,738.5
+ukdale_1,ukdale,2,tv,,keep,,TV3A,R3.2,[1.0],3.3,103.1,0,0.0984,744.9
+ukdale_1,ukdale,3,kitchen_lights,,keep,,CEIL,R3.2,"[0.0, 1.7, 1.8, 1.9, 2.0, 2.2, 3.7, 3.8, 3.9, 4.0, 4.1, 4.2, 4.3]",7.59,136.0,0,0.1221,744.6
+ukdale_1,ukdale,4,htpc,,keep,,PC2,R3.2,[2.0],4.6,67.8,0,0.2338,727.0
+ukdale_1,ukdale,5,kettle,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+ukdale_1,ukdale,6,toaster,,drop,drop:no real battery product,,,,,,,,
+ukdale_1,ukdale,7,microwave,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+ukdale_1,ukdale,8,lcd_office,,keep,,TV3A,R3.2,"[0.0, 1.0]",3.3,44.0,0,0.4441,161.7
+ukdale_1,ukdale,9,hifi_office,,keep,,SPK_HIFI,R3.2,[0.0],2.0,8.8,0,0.4201,163.0
+ukdale_1,ukdale,10,amp_livingroom,,keep,,SPK,R3.2,[0.0],2.0,23.0,0,0.1376,727.1
+ukdale_1,ukdale,11,livingroom_s_lamp,,keep,,TL,R3.2,[0.0],2.0,16.1,0,0.1218,679.4
+ukdale_1,ukdale,12,soldering_iron,,exclude,exclude:fewer than 60 observed days,,,,,,,,46.9
+ukdale_1,ukdale,13,hoover,,exclude,exclude:fewer than 60 observed days,,,,,,,,6.0
+ukdale_1,ukdale,14,kitchen_dt_lamp,,keep,,TL,R3.2,"[0.0, 1.0]",3.3,40.8,0,0.0346,686.8
+ukdale_1,ukdale,15,bedroom_ds_lamp,,keep,,TL,R3.2,[0.0],2.0,22.7,0,0.0083,520.9
+ukdale_1,ukdale,16,livingroom_s_lamp2,,keep,,TL,R3.2,[0.0],2.0,8.0,0,0.0617,662.7
+ukdale_1,ukdale,17,iPad_charger,,keep,,TABLET,R3.2,"[0.0, 0.1, 0.2]",2.29,5.0,0,0.01,492.7
+ukdale_1,ukdale,18,subwoofer_livingroom,,keep,,SPK,R3.2,"[0.3, 0.4, 0.5, 0.6]",2.81,16.0,0,0.1439,662.7
+ukdale_1,ukdale,19,livingroom_lamp_tv,,keep,,TL,R3.2,[0.0],2.0,13.0,0,0.0868,662.7
+ukdale_1,ukdale,20,DAB_radio_livingroom,,exclude,exclude:fewer than 60 observed days,,,,,,,,54.0
+ukdale_1,ukdale,21,kitchen_lamp2,,keep,,TL,R3.2,[0.0],2.0,18.1,0,0.2611,630.7
+ukdale_1,ukdale,22,kitchen_phone&stereo,,keep,,SPK_KITCHEN,R3.2,[1.0],3.3,4.3,0,0.1478,661.1
+ukdale_1,ukdale,23,utilityrm_lamp,,keep,,TL,R3.2,[0.0],2.0,43.8,0,0.0016,588.5
+ukdale_1,ukdale,24,samsung_charger,,keep,,TABLET,R3.2,"[0.0, 0.1]",2.19,4.0,0,0.0177,602.8
+ukdale_1,ukdale,25,bedroom_d_lamp,,keep,,TL,R3.2,"[0.0, 0.1, 0.2]",2.33,25.1,0,0.0116,635.8
+ukdale_1,ukdale,26,coffee_machine,,keep,,CM,R3.2,"[0.2, 0.3, 0.4, 0.5, 0.6]",2.72,52.6,0,0.0011,663.2
+ukdale_1,ukdale,27,kitchen_radio,,exclude,exclude:no use detected,,R3.2,[0.7],2.87,40.4,0,0.0,661.1
+ukdale_1,ukdale,28,bedroom_chargers,,keep,,TABLET,R3.2,[0.0],2.0,4.0,0,0.0919,660.7
+ukdale_1,ukdale,29,hair_dryer,,exclude,exclude:fewer than 60 observed days,,,,,,,,3.5
+ukdale_1,ukdale,30,straighteners,,exclude,exclude:fewer than 60 observed days,,,,,,,,2.9
+ukdale_1,ukdale,31,iron,,exclude,exclude:fewer than 60 observed days,,,,,,,,0.2
+ukdale_1,ukdale,32,childs_table_lamp,,keep,,TL,R3.2,[0.0],2.0,14.0,0,0.0017,659.9
+ukdale_1,ukdale,33,childs_ds_lamp,,keep,,TL,R3.2,[0.0],2.0,8.0,0,0.013,618.1
+ukdale_1,ukdale,34,baby_monitor_tx,,exclude,exclude:no use detected,,R3.2,[0.0],2.0,65.1,0,0.0,597.2
+ukdale_1,ukdale,35,battery_charger,,keep,,TABLET,R3.2,[0.0],2.0,4.0,0,0.0438,631.6
+ukdale_1,ukdale,36,office_lamp1,,keep,,TL,R3.2,[0.0],2.0,13.8,0,0.0314,632.6
+ukdale_1,ukdale,37,office_lamp2,,keep,,TL,R3.2,[0.0],2.0,11.0,0,0.0672,595.9
+ukdale_1,ukdale,38,office_lamp3,,keep,,TL,R3.2,[0.0],2.0,6.9,0,0.3629,106.6
+ukdale_1,ukdale,39,office_pc,,keep,,PC2,R3.2,"[2.0, 2.4, 2.5, 2.6, 3.0]",5.9,176.2,0,0.0583,108.7
+ukdale_1,ukdale,40,office_fan,,keep,,FAN,R3.2,"[0.0, 0.1]",2.14,31.9,0,0.0458,170.7
+ukdale_1,ukdale,41,LED_printer,,keep,,PRINT,R3.2,"[0.4, 1.0]",3.3,6.0,0,0.0135,77.8
+ukdale_2,ukdale,0,laptop,,keep,,PC2,R3.2,"[0.0, 0.1]",2.14,18.7,0,0.4206,199.8
+ukdale_2,ukdale,1,monitor,,keep,,TV3A,R3.2,[0.0],2.0,60.7,935,0.377,199.8
+ukdale_2,ukdale,2,speakers,,keep,,SPK,R3.2,[3.0],5.9,10.5,0,0.3907,199.6
+ukdale_2,ukdale,3,kettle,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+ukdale_2,ukdale,4,rice_cooker,,drop,drop:no real battery product,,,,,,,,
+ukdale_2,ukdale,5,laptop2,,keep,,PC2,R3.2,[0.0],2.0,24.8,0,0.1685,133.7
+ukdale_2,ukdale,6,washing_machine,,keep,,WASH,R3.2,"[3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7]",6.81,145.7,0,0.0153,120.0
+ukdale_2,ukdale,7,microwave,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+ukdale_2,ukdale,8,toaster,,drop,drop:no real battery product,,,,,,,,
+ukdale_2,ukdale,9,playstation,,keep,,SWITCH,R3.2,[1.0],3.3,31.6,0,0.0008,120.0
+ukdale_5,ukdale,0,stereo_speakers_bedroom,,keep,,SPK,R3.2,[1.0],3.3,41.0,0,0.0,69.9
+ukdale_5,ukdale,1,i7_desktop,,keep,,PC2,R3.2,[50.0],66.94,115.4,0,0.4976,131.9
+ukdale_5,ukdale,2,hairdryer,,keep,,HD,R3.2,"[0.3, 0.4, 0.5, 0.8, 0.9]",3.17,879.6,0,0.0027,131.7
+ukdale_5,ukdale,3,primary_tv,,keep,,TV3A,R3.2,"[0.1, 0.2, 0.3, 0.4]",2.52,68.5,0,0.0859,131.3
+ukdale_5,ukdale,4,24_inch_lcd_bedroom,,keep,,TV3A,R3.2,[0.0],2.0,87.3,0,0.0382,132.0
+ukdale_5,ukdale,5,24_inch_lcd,,keep,,TV3A,R3.2,[0.0],2.0,26.6,0,0.32,69.9
+ukdale_5,ukdale,6,PS4,,exclude,exclude:fewer than 60 observed days,,,,,,,,0.7
+ukdale_5,ukdale,7,steam_iron,,keep,,IRON,R3.2,[0.0],2.0,1210.3,0,0.0007,69.9
+ukdale_5,ukdale,8,nespresso_pixie,,keep,,CM,R3.2,"[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7]",2.91,140.7,0,0.0063,69.9
+ukdale_5,ukdale,9,atom_pc,,exclude,exclude:no use detected,,R3.2,[23.4],32.37,,0,0.0,69.9
+ukdale_5,ukdale,10,toaster,,drop,drop:no real battery product,,,,,,,,
+ukdale_5,ukdale,11,home_theatre_amp,,keep,,SPK,R3.2,[24.0],33.2,49.1,0,0.154,69.9
+ukdale_5,ukdale,12,kettle,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+ukdale_5,ukdale,13,microwave,,drop,drop:15 W charging cannot keep up with use,,,,,,,,
+ukdale_5,ukdale,14,vacuum_cleaner,,exclude,exclude:fewer than 60 observed days,,,,,,,,5.7
